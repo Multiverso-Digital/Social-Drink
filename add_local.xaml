@@ -1,0 +1,275 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.add_local"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    xmlns:telerikJumpList="clr-namespace:Telerik.Windows.Controls.JumpList;assembly=Telerik.Windows.Controls.Data"
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input"
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+  
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="728" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False" 
+    xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <phone:PhoneApplicationPage.Resources>
+
+
+        <ControlTemplate x:Key="PhoneDisabledTextBoxTemplate" TargetType="TextBox">
+        <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+        </ControlTemplate>
+        <Style x:Key="TextBoxStyle1" TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Background" >
+                <Setter.Value>
+                    <SolidColorBrush Color="LightGray"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="SelectionBackground" Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground" Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="EnabledBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="DisabledOrReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ReadOnly">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="EnabledBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="DisabledOrReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="DisabledOrReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="DisabledOrReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="DisabledOrReadonlyContent">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxReadOnlyBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="EnabledBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <SolidColorBrush Color="White"/>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="EnabledBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBorderBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="EnabledBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+                            </Border>
+                            <Border x:Name="DisabledOrReadonlyBorder" BorderBrush="{StaticResource PhoneDisabledBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}" Visibility="Collapsed">
+                                <TextBox x:Name="DisabledOrReadonlyContent" Background="Transparent" Foreground="{StaticResource PhoneDisabledBrush}" FontWeight="{TemplateBinding FontWeight}" FontStyle="{TemplateBinding FontStyle}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}" IsReadOnly="True" SelectionForeground="{TemplateBinding SelectionForeground}" SelectionBackground="{TemplateBinding SelectionBackground}" TextAlignment="{TemplateBinding TextAlignment}" TextWrapping="{TemplateBinding TextWrapping}" Text="{TemplateBinding Text}" Template="{StaticResource PhoneDisabledTextBoxTemplate}"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+
+
+
+
+        <Style TargetType="telerikPrimitives:RadDataBoundListBoxItem" 
+                   x:Key="ItemContainerStyle">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            </Style>
+
+
+        <Style x:Key="HeaderStyle" TargetType="ContentControl">
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeSmall}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="White"/>
+
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="0,0,0,0"/>
+        </Style>
+        <Style x:Key="DateTimeHeaderStyle" TargetType="ContentControl" 
+               BasedOn="{StaticResource HeaderStyle}">
+            <Setter Property="Margin" Value="10,0,0,-3"/>
+        </Style>
+
+
+        
+   
+
+
+    </phone:PhoneApplicationPage.Resources>
+
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.Background>
+            <ImageBrush  ImageSource="fundo_tela_480-01.jpg"></ImageBrush>
+        </Grid.Background>
+
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+   
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" 
+                       Text="{Binding Path=Resources.AppTitleAddLocal, 
+                  Source={StaticResource Localization}}"  
+                       Style="{StaticResource PhoneTextNormalStyle}" Width="315" HorizontalAlignment="Left" />
+            <TextBlock x:Name="PageTitle" 
+                        Text="{Binding Path=Resources.PTitleAddLocal, 
+                  Source={StaticResource Localization}}"  
+                       
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,86,12,0" Grid.RowSpan="2">
+            <TextBox 
+                Style="{StaticResource TextBoxStyle1}"
+                Height="72" InputScope="Search" 
+                     HorizontalAlignment="Left" Margin="2,104,0,0" 
+                     Name="eNomelocal" Text="" VerticalAlignment="Top" 
+                     Width="460"   
+                     GotFocus="eNomelocal_GotFocus" 
+                     KeyUp="eNomelocal_KeyUp">
+            </TextBox>
+            <TextBlock 
+                Height="30" 
+                HorizontalAlignment="Left" 
+                Margin="14,87,0,0" 
+                Name="novloc_nomelocal" 
+                Text="{Binding Path=Resources.novloc_nomelocal, 
+                Source={StaticResource Localization}}" 
+                VerticalAlignment="Top" Width="432" />
+            <!-- <my:Map Height="379" HorizontalAlignment="Left" Margin="14,226,0,0" Name="map1" VerticalAlignment="Top" Width="436" CredentialsProvider="ApIlk15OooGYg6FY_vklyYbcEjeg9kwIILFZKux6s7JZXT5tSo9k066YfZOImtuy" Visibility="Collapsed"/>-->
+            <telerikPrimitives:RadBusyIndicator Background="Transparent" x:Name="busyIndicator" Foreground="White" AnimationStyle="AnimationStyle9" Margin="-12,596,-12,38" Height="48" />
+            <TextBox 
+                
+                Style="{StaticResource TextBoxStyle1}"
+                     Height="72" 
+                     InputScope="Search"
+                     HorizontalAlignment="Left" Margin="2,184,0,0" 
+                     Name="eAddress" Opacity="10" Text="" VerticalAlignment="Top" 
+                Width="460" TextInputUpdate="eAddress_TextInputUpdate" 
+                TextChanged="eAddress_TextChanged" 
+                KeyUp="eAddress_KeyUp">
+
+            </TextBox>
+            <TextBlock Height="30" HorizontalAlignment="Left" 
+                       Margin="14,167,0,0" Name="nov_loc_ende" 
+                       Text="{Binding Path=Resources.nov_loc_ende, Source={StaticResource Localization}}" VerticalAlignment="Top" Width="432" />
+            <telerikInput:RadListPicker 
+                
+              Background="White"
+                Foreground="Black"
+                Name="eSel" Header="Categorie" 
+              
+              Margin="14,250,10,0" HeaderStyle="{StaticResource HeaderStyle}">
+
+                <sys:String>
+                    Select
+                </sys:String>
+
+                <sys:String>bar</sys:String>
+                <sys:String>bakery</sys:String>
+                <sys:String>cafe</sys:String>
+                <sys:String>food</sys:String>
+                <sys:String>restaurant</sys:String>
+                <sys:String>night_club</sys:String>
+                
+            </telerikInput:RadListPicker>
+            <TextBlock  Visibility="Collapsed" Height="120" HorizontalAlignment="Left" 
+                       Margin="111,356,0,0" Name="nov_loc_aviso" 
+                Text="{Binding Path=Resources.nov_loc_aviso,  
+                Source={StaticResource Localization}}"
+                       
+                        
+                       VerticalAlignment="Top" Width="257" 
+                       TextWrapping="Wrap" />
+            <TextBox  Visibility="Collapsed" Style="{StaticResource TextBoxStyle1}" Height="72" HorizontalAlignment="Left" Margin="102,463,0,0" Name="eLat" Text="" VerticalAlignment="Top" Width="266" />
+            <TextBox Visibility="Collapsed" Style="{StaticResource TextBoxStyle1}" Height="72" HorizontalAlignment="Left" Margin="103,518,0,0" Name="eLon" Text="" VerticalAlignment="Top" Width="266" />
+            <TextBlock  Visibility="Collapsed" Height="30" HorizontalAlignment="Left" Margin="29,485,0,0" Name="textBlock2" Text="Latitude:" VerticalAlignment="Top" />
+            <TextBlock Visibility="Collapsed" Height="30" HorizontalAlignment="Left" Margin="12,541,0,0" Name="textBlock3" Text="Longitude:" VerticalAlignment="Top" />
+            <Button Content="Button" Height="72" HorizontalAlignment="Left" Margin="336,380,0,0" Name="button1" VerticalAlignment="Top" Width="127" Click="button1_Click" Visibility="Collapsed" />
+        </Grid>
+    </Grid>
+
+
+
+
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="true" BackgroundColor="#b1b72f">
+            <shell:ApplicationBarIconButton IconUri="/Images/Save.png" Click="Save_Button" Text="Save"/>
+            
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

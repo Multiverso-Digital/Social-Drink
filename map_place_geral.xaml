@@ -1,0 +1,93 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.map_place_geral"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+
+
+    <Canvas x:Name="LayoutRoot">
+        <!-- Map View -->
+        <Border x:Name="MapView"
+                Background="Black"
+			    Height="768" Width="480">
+
+            <my:Map Name="map1"
+                    
+                    
+                    
+                    ZoomLevel="{Binding Zoom, Mode=TwoWay}"
+                    Center="{Binding Center, Mode=TwoWay}"
+                    CredentialsProvider="ApIlk15OooGYg6FY_vklyYbcEjeg9kwIILFZKux6s7JZXT5tSo9k066YfZOImtuy">
+
+
+                <my:Map.Mode>
+                    <my:AerialMode ShouldDisplayLabels="True" />
+                </my:Map.Mode>
+
+
+
+
+            </my:Map>
+            
+
+
+        </Border>
+        <ProgressBar Name="progressBar" IsIndeterminate="True" />
+
+        <Grid Margin="50,300,0,0">
+
+            
+
+
+            <StackPanel Name="popup" Visibility="Collapsed" Width="400" Height="300">
+
+                <Rectangle Name="bg" Visibility="Collapsed" Fill="Black" Opacity="0.7"  Width="400" Height="300" />
+
+                <TextBlock Text="Close" Tap="Close_Click" Margin="330,-540,0,0"  Foreground="Violet" Height="36" />
+                <StackPanel Margin="0,-315,0,0" Width="370" Height="280">
+                    <TextBlock Name="title_txt" TextWrapping="Wrap" Text="title" HorizontalAlignment="Left" FontSize="26" FontFamily="Segoe WP Semibold" Foreground="Violet" Height="Auto" Margin="10,10,0,5" Width="289" />
+                    <TextBlock Name="address_txt" TextWrapping="Wrap" Text="ende" FontFamily="Segoe WP SemiLight" Foreground="White" Height="Auto" Margin="0,0,0,5" Width="347" />
+                    <TextBlock Name="dist_txt" Text="" TextAlignment="Left" FontFamily="Segoe WP SemiLight" Foreground="White" Margin="0,0,0,0" Width="347" />
+                </StackPanel>
+
+            </StackPanel>
+
+
+        
+
+
+        </Grid>
+
+        <Image Height="57"  
+               Name="image3" 
+               Stretch="Fill" 
+               VerticalAlignment="Top" 
+               Source="/images/map_satellite.png" 
+               Tap="image3_Tap" Width="50" 
+               Canvas.Left="226" 
+               Canvas.Top="694" />
+        <Image Height="57" HorizontalAlignment="Right" 
+               Name="image4" Stretch="Fill" 
+               VerticalAlignment="Top" Width="56" 
+               Source="/images/map.aerial.png" Tap="image4_Tap" 
+               Canvas.Left="300" 
+               Canvas.Top="694" />
+
+
+
+    </Canvas>
+
+    <!--Sample code showing usage of ApplicationBar-->
+   
+</phone:PhoneApplicationPage>

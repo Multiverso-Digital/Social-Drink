@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="am_fb" xml:space="preserve">
+    <value>额外的信息</value>
+  </data>
+  <data name="AppTitleAddLocal" xml:space="preserve">
+    <value>添加地点</value>
+  </data>
+  <data name="AppTitleBrand" xml:space="preserve">
+    <value>品牌列表</value>
+  </data>
+  <data name="AppTitleCategoria" xml:space="preserve">
+    <value>分类列表</value>
+  </data>
+  <data name="AppTitleDrink" xml:space="preserve">
+    <value>列表饮料</value>
+  </data>
+  <data name="AppTitleFri" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AppTitleTaxi" xml:space="preserve">
+    <value>清单出租车</value>
+  </data>
+  <data name="app_capture" xml:space="preserve">
+    <value>捕捉屏幕</value>
+  </data>
+  <data name="app_title_DF" xml:space="preserve">
+    <value>喝酒</value>
+  </data>
+  <data name="AVISO_Header" xml:space="preserve">
+    <value>酒精警告</value>
+  </data>
+  <data name="b01AddPlace" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="bcomprar" xml:space="preserve">
+    <value>购买</value>
+  </data>
+  <data name="busyIndicator" xml:space="preserve">
+    <value>载入中...</value>
+  </data>
+  <data name="button1" xml:space="preserve">
+    <value>电话＃</value>
+  </data>
+  <data name="button_nov_loc_address" xml:space="preserve">
+    <value>尝试寻找它的谷歌</value>
+  </data>
+  <data name="button_nov_loc_google" xml:space="preserve">
+    <value>尝试找到它</value>
+  </data>
+  <data name="button_use_gravar" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="b_camera" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="b_cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="b_capture" xml:space="preserve">
+    <value>捕获</value>
+  </data>
+  <data name="b_checkin" xml:space="preserve">
+    <value>签</value>
+  </data>
+  <data name="b_clear" xml:space="preserve">
+    <value>明确表</value>
+  </data>
+  <data name="b_delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="b_edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="b_edit_user" xml:space="preserve">
+    <value>编辑用户</value>
+  </data>
+  <data name="b_graph" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="b_hyper" xml:space="preserve">
+    <value>隐私权政策</value>
+  </data>
+  <data name="b_info" xml:space="preserve">
+    <value>地方信息</value>
+  </data>
+  <data name="b_linkmap" xml:space="preserve">
+    <value>发送地图</value>
+  </data>
+  <data name="b_linkphoto" xml:space="preserve">
+    <value>发送照片</value>
+  </data>
+  <data name="b_map" xml:space="preserve">
+    <value>显示地图</value>
+  </data>
+  <data name="b_newplace" xml:space="preserve">
+    <value>新的地方</value>
+  </data>
+  <data name="b_novo" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="b_placenew" xml:space="preserve">
+    <value>新的地方</value>
+  </data>
+  <data name="b_promotion" xml:space="preserve">
+    <value>提升</value>
+  </data>
+  <data name="b_refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="b_save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="b_sendimage" xml:space="preserve">
+    <value>发送照片</value>
+  </data>
+  <data name="b_sendmessage" xml:space="preserve">
+    <value>发送信息</value>
+  </data>
+  <data name="b_share" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="b_sobre" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="b_update" xml:space="preserve">
+    <value>立即更新！</value>
+  </data>
+  <data name="cap_save" xml:space="preserve">
+    <value>保存此图片，并将其发送到Facebook或Twitter</value>
+  </data>
+  <data name="cbSend" xml:space="preserve">
+    <value>送饮料信息</value>
+  </data>
+  <data name="check_brand" xml:space="preserve">
+    <value>品牌或饮料的名称</value>
+  </data>
+  <data name="check_drink" xml:space="preserve">
+    <value>喝类型</value>
+  </data>
+  <data name="dash_medals" xml:space="preserve">
+    <value>显示我的奖牌和促销活动，我赢了</value>
+  </data>
+  <data name="dash_mytrack" xml:space="preserve">
+    <value>显示所有的地方，我一直在和饮料了</value>
+  </data>
+  <data name="dash_top10" xml:space="preserve">
+    <value>显示您附近的10个最好的地方，通过我们的数据库</value>
+  </data>
+  <data name="Desligado" xml:space="preserve">
+    <value>离</value>
+  </data>
+  <data name="eDrop" xml:space="preserve">
+    <value>这里拖放瓶</value>
+  </data>
+  <data name="eSangue" xml:space="preserve">
+    <value>在你的血液中的酒精：</value>
+  </data>
+  <data name="Ligado" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="LOCALItxt" xml:space="preserve">
+    <value>此应用程序使用您的位置寻找附近设备的位置。如果没有这个功能的应用程序无法正常工作。在“关于”按钮，请参阅隐私政策。</value>
+  </data>
+  <data name="LOCALI_Header" xml:space="preserve">
+    <value>启用位置</value>
+  </data>
+  <data name="login_t_forgot" xml:space="preserve">
+    <value>忘记密码</value>
+  </data>
+  <data name="login_t_newaccount" xml:space="preserve">
+    <value>新帐户</value>
+  </data>
+  <data name="login_t_password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="m01" xml:space="preserve">
+    <value>互联网连接。请稍后再试。</value>
+  </data>
+  <data name="m02" xml:space="preserve">
+    <value>错误 - 连接丢失。请稍后再试。</value>
+  </data>
+  <data name="m03" xml:space="preserve">
+    <value>此应用程序需要访问您的位置。你同意吗？我们可以做到这一点的访问吗？</value>
+  </data>
+  <data name="m04" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="m05" xml:space="preserve">
+    <value>连接到服务器...</value>
+  </data>
+  <data name="m06" xml:space="preserve">
+    <value>电子邮件必须是有效的！</value>
+  </data>
+  <data name="m07" xml:space="preserve">
+    <value>密码必须是有效的！</value>
+  </data>
+  <data name="m08" xml:space="preserve">
+    <value>错误：无效的登录。再试一次！</value>
+  </data>
+  <data name="m09" xml:space="preserve">
+    <value>对不起！您必须创建另一个帐户。</value>
+  </data>
+  <data name="m10" xml:space="preserve">
+    <value>你有这样的应用程序可以访问的位置。请更改您的设备设置。</value>
+  </data>
+  <data name="m100" xml:space="preserve">
+    <value>保存OK</value>
+  </data>
+  <data name="m101" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="m102" xml:space="preserve">
+    <value>饮料</value>
+  </data>
+  <data name="m103" xml:space="preserve">
+    <value>地方</value>
+  </data>
+  <data name="m104" xml:space="preserve">
+    <value>您的HIFI网络没有连接！</value>
+  </data>
+  <data name="m105" xml:space="preserve">
+    <value>请，到设置页面，输入您的E-mail</value>
+  </data>
+  <data name="m106" xml:space="preserve">
+    <value>将数据发送到服务器...</value>
+  </data>
+  <data name="m11" xml:space="preserve">
+    <value>在此设备上的位置不能正常工作</value>
+  </data>
+  <data name="m12" xml:space="preserve">
+    <value>数据不可用</value>
+  </data>
+  <data name="m13" xml:space="preserve">
+    <value>卫星信号差。改变你的位置，然后再试一次。应用程序将被终止。</value>
+  </data>
+  <data name="m14" xml:space="preserve">
+    <value>请稍候，您的立场是坚定...</value>
+  </data>
+  <data name="m15" xml:space="preserve">
+    <value>寻找的卫星信号。</value>
+  </data>
+  <data name="m16" xml:space="preserve">
+    <value>寻找卫星信号..</value>
+  </data>
+  <data name="m17" xml:space="preserve">
+    <value>正在寻找卫星信号...</value>
+  </data>
+  <data name="m18" xml:space="preserve">
+    <value>附近无地发现。请添加一个新的地方。点击+按钮。</value>
+  </data>
+  <data name="m19" xml:space="preserve">
+    <value>直到：</value>
+  </data>
+  <data name="m20" xml:space="preserve">
+    <value>醉在这里：</value>
+  </data>
+  <data name="m21" xml:space="preserve">
+    <value>你醉在这里：</value>
+  </data>
+  <data name="m22" xml:space="preserve">
+    <value>您必须选择一个饮料类型。</value>
+  </data>
+  <data name="m23" xml:space="preserve">
+    <value>您必须指定的品牌名称。</value>
+  </data>
+  <data name="m24" xml:space="preserve">
+    <value>您必须标明的剂量。</value>
+  </data>
+  <data name="m25" xml:space="preserve">
+    <value>名称必须是有效的！</value>
+  </data>
+  <data name="m26" xml:space="preserve">
+    <value>密码确认必须是有效的！</value>
+  </data>
+  <data name="m27" xml:space="preserve">
+    <value>密码必须是一样的！</value>
+  </data>
+  <data name="m28" xml:space="preserve">
+    <value>男/女未分配！</value>
+  </data>
+  <data name="m30" xml:space="preserve">
+    <value>通过卫星Coodinates发现。等待。</value>
+  </data>
+  <data name="m31" xml:space="preserve">
+    <value>您的排名位置：</value>
+  </data>
+  <data name="m32" xml:space="preserve">
+    <value>排名的地方：</value>
+  </data>
+  <data name="m33" xml:space="preserve">
+    <value>获取用户数据从服务器喝酒...</value>
+  </data>
+  <data name="m34" xml:space="preserve">
+    <value>将用户数据从服务器喝...</value>
+  </data>
+  <data name="m35" xml:space="preserve">
+    <value>从服务器设置应用程序数据的饮料...</value>
+  </data>
+  <data name="m36" xml:space="preserve">
+    <value>选择一个品牌。</value>
+  </data>
+  <data name="m37" xml:space="preserve">
+    <value>选择一个饮料</value>
+  </data>
+  <data name="m38" xml:space="preserve">
+    <value>品牌必须是有效的</value>
+  </data>
+  <data name="m39" xml:space="preserve">
+    <value>这个品牌已经存在</value>
+  </data>
+  <data name="m73" xml:space="preserve">
+    <value>是的，我同意</value>
+  </data>
+  <data name="m74" xml:space="preserve">
+    <value>我接受这个应用程序访问我的位置。</value>
+  </data>
+  <data name="m75" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="m76" xml:space="preserve">
+    <value>不，我不接受。请关闭该应用程序。</value>
+  </data>
+  <data name="m77" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="m78" xml:space="preserve">
+    <value>你是否同意此应用程序访问您的位置呢？</value>
+  </data>
+  <data name="m79" xml:space="preserve">
+    <value>地方当前离线</value>
+  </data>
+  <data name="m80" xml:space="preserve">
+    <value>附近</value>
+  </data>
+  <data name="m81" xml:space="preserve">
+    <value>此应用程序不工作，没有这个功能。该应用程序将被关闭。</value>
+  </data>
+  <data name="m85" xml:space="preserve">
+    <value>互联网不活跃。您可以下线。</value>
+  </data>
+  <data name="m86" xml:space="preserve">
+    <value>要脱机工作创建一个假的，后来ajust。</value>
+  </data>
+  <data name="m87" xml:space="preserve">
+    <value>如果你需要一个出租车出租车图标上点击。</value>
+  </data>
+  <data name="m88" xml:space="preserve">
+    <value>点击在杯子喝水。</value>
+  </data>
+  <data name="m89" xml:space="preserve">
+    <value>您在您的通讯录中有一个以上的TAXI。请只留下一个。</value>
+  </data>
+  <data name="m90" xml:space="preserve">
+    <value>选择手机发送短信！</value>
+  </data>
+  <data name="m91" xml:space="preserve">
+    <value>姓不为空</value>
+  </data>
+  <data name="m92" xml:space="preserve">
+    <value>您的Celular失踪人数！</value>
+  </data>
+  <data name="m93" xml:space="preserve">
+    <value>你的地址，目的失踪了！</value>
+  </data>
+  <data name="m94" xml:space="preserve">
+    <value>地点：。</value>
+  </data>
+  <data name="m95" xml:space="preserve">
+    <value>地址：</value>
+  </data>
+  <data name="m96" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="m97" xml:space="preserve">
+    <value>Celular：。</value>
+  </data>
+  <data name="m98" xml:space="preserve">
+    <value>。我在这里：</value>
+  </data>
+  <data name="m99" xml:space="preserve">
+    <value>目的地：。</value>
+  </data>
+  <data name="ms107" xml:space="preserve">
+    <value>点选杯</value>
+  </data>
+  <data name="ms40" xml:space="preserve">
+    <value>你的饮料在这里：</value>
+  </data>
+  <data name="ms41" xml:space="preserve">
+    <value>这里总饮品：</value>
+  </data>
+  <data name="ms42" xml:space="preserve">
+    <value>社会饮酒：</value>
+  </data>
+  <data name="ms43" xml:space="preserve">
+    <value>社会饮酒：</value>
+  </data>
+  <data name="ms44" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ms45" xml:space="preserve">
+    <value>我的速递热力推荐：</value>
+  </data>
+  <data name="ms46" xml:space="preserve">
+    <value>品牌或饮料名称：</value>
+  </data>
+  <data name="ms47" xml:space="preserve">
+    <value>SMS失踪人数！</value>
+  </data>
+  <data name="ms48" xml:space="preserve">
+    <value>短信到：</value>
+  </data>
+  <data name="ms49" xml:space="preserve">
+    <value>下载附近的地方...</value>
+  </data>
+  <data name="ms50" xml:space="preserve">
+    <value>地名不能为空！</value>
+  </data>
+  <data name="ms51" xml:space="preserve">
+    <value>类别不能为空！</value>
+  </data>
+  <data name="ms52" xml:space="preserve">
+    <value>地址不能为空！</value>
+  </data>
+  <data name="ms53" xml:space="preserve">
+    <value>保存新的地方...等等！</value>
+  </data>
+  <data name="ms54" xml:space="preserve">
+    <value>错误 - 在添加新的地方。请稍后再试。</value>
+  </data>
+  <data name="ms55" xml:space="preserve">
+    <value>地方救了！</value>
+  </data>
+  <data name="ms56" xml:space="preserve">
+    <value>删除图片</value>
+  </data>
+  <data name="ms57" xml:space="preserve">
+    <value>您确定您要删除此图像吗？</value>
+  </data>
+  <data name="ms58" xml:space="preserve">
+    <value>必须选择一个地址！</value>
+  </data>
+  <data name="ms59" xml:space="preserve">
+    <value>地点已经存在！</value>
+  </data>
+  <data name="ms60" xml:space="preserve">
+    <value>消息发送到工作人员</value>
+  </data>
+  <data name="ms61" xml:space="preserve">
+    <value>图像失踪了！</value>
+  </data>
+  <data name="ms62" xml:space="preserve">
+    <value>发送照片...</value>
+  </data>
+  <data name="ms63" xml:space="preserve">
+    <value>添加新专辑...</value>
+  </data>
+  <data name="ms64" xml:space="preserve">
+    <value>添加照片到相册...</value>
+  </data>
+  <data name="ms65" xml:space="preserve">
+    <value>照片已发送！</value>
+  </data>
+  <data name="ms66" xml:space="preserve">
+    <value>请，减少大小的消息！</value>
+  </data>
+  <data name="ms67" xml:space="preserve">
+    <value>更新的帐户</value>
+  </data>
+  <data name="ms68" xml:space="preserve">
+    <value>成功地写出了新的帐户！</value>
+  </data>
+  <data name="ms69" xml:space="preserve">
+    <value>在我们的数据库中发现了这封电子邮件。请尝试另一种。</value>
+  </data>
+  <data name="ms70" xml:space="preserve">
+    <value>错误：无法保存您的信息。请稍后再试！</value>
+  </data>
+  <data name="ms71" xml:space="preserve">
+    <value>请耐心等待...</value>
+  </data>
+  <data name="ms72" xml:space="preserve">
+    <value>总的饮料：</value>
+  </data>
+  <data name="m_duplicado" xml:space="preserve">
+    <value>复制位置</value>
+  </data>
+  <data name="m_endereco" xml:space="preserve">
+    <value>错误的地址</value>
+  </data>
+  <data name="m_fechado" xml:space="preserve">
+    <value>关闭位置</value>
+  </data>
+  <data name="NET_Header" xml:space="preserve">
+    <value>网络访问</value>
+  </data>
+  <data name="novloc_categoria" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="novloc_nomelocal" xml:space="preserve">
+    <value>地名</value>
+  </data>
+  <data name="nov_loc_address" xml:space="preserve">
+    <value>选择地址</value>
+  </data>
+  <data name="nov_loc_aviso" xml:space="preserve">
+    <value>您必须在新的位置。通过卫星的坐标。见下文。</value>
+  </data>
+  <data name="nov_loc_drink" xml:space="preserve">
+    <value>喝名称</value>
+  </data>
+  <data name="nov_loc_ende" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="nov_loc_fone" xml:space="preserve">
+    <value>电话（opcional）</value>
+  </data>
+  <data name="nov_loc_g_tap" xml:space="preserve">
+    <value>点击选择</value>
+  </data>
+  <data name="nov_loc_sel" xml:space="preserve">
+    <value>选择类别</value>
+  </data>
+  <data name="nov_use_add" xml:space="preserve">
+    <value>新帐户</value>
+  </data>
+  <data name="nov_use_female" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="nov_use_male" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="nov_use_nome" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="nov_use_pass" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="nov_use_passconf" xml:space="preserve">
+    <value>密码确认</value>
+  </data>
+  <data name="nov_use_profile" xml:space="preserve">
+    <value>帐户</value>
+  </data>
+  <data name="p111header" xml:space="preserve">
+    <value>我的轨迹</value>
+  </data>
+  <data name="p11header" xml:space="preserve">
+    <value>我的饮料</value>
+  </data>
+  <data name="p121header" xml:space="preserve">
+    <value>我的饮料</value>
+  </data>
+  <data name="p12header" xml:space="preserve">
+    <value>前10名</value>
+  </data>
+  <data name="p1header" xml:space="preserve">
+    <value>地方</value>
+  </data>
+  <data name="p22header" xml:space="preserve">
+    <value>前10名</value>
+  </data>
+  <data name="p2header" xml:space="preserve">
+    <value>我的最爱</value>
+  </data>
+  <data name="P2Main" xml:space="preserve">
+    <value>仪表盘</value>
+  </data>
+  <data name="p32header" xml:space="preserve">
+    <value>排名前50位的饮料</value>
+  </data>
+  <data name="p3header" xml:space="preserve">
+    <value>前50个名额</value>
+  </data>
+  <data name="P3Main" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="p4header" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="P4Main" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="p91header" xml:space="preserve">
+    <value>地方</value>
+  </data>
+  <data name="PageTitleTrial" xml:space="preserve">
+    <value>庭审结束</value>
+  </data>
+  <data name="place_map" xml:space="preserve">
+    <value>地方地图</value>
+  </data>
+  <data name="PTitleAddLocal" xml:space="preserve">
+    <value>新的地方</value>
+  </data>
+  <data name="PTitleAddLocalGoogle" xml:space="preserve">
+    <value>谷歌500米</value>
+  </data>
+  <data name="PTitleBrand" xml:space="preserve">
+    <value>选择品牌</value>
+  </data>
+  <data name="PTitleBrandDel" xml:space="preserve">
+    <value>删除品牌</value>
+  </data>
+  <data name="PTitleCategoria" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="PTitleDrink" xml:space="preserve">
+    <value>选择喝</value>
+  </data>
+  <data name="PTitleFriends" xml:space="preserve">
+    <value>选择朋友</value>
+  </data>
+  <data name="PTitleTaxi" xml:space="preserve">
+    <value>叫出租车</value>
+  </data>
+  <data name="radHubTile3" xml:space="preserve">
+    <value>拍我</value>
+  </data>
+  <data name="sel_dose" xml:space="preserve">
+    <value>选择您的剂量</value>
+  </data>
+  <data name="sendinfo" xml:space="preserve">
+    <value>发送到服务器</value>
+  </data>
+  <data name="set_email" xml:space="preserve">
+    <value>您的E-mail</value>
+  </data>
+  <data name="sm_fb" xml:space="preserve">
+    <value>主要信息</value>
+  </data>
+  <data name="taxi_b_call" xml:space="preserve">
+    <value>叫出租车</value>
+  </data>
+  <data name="taxi_b_novofone" xml:space="preserve">
+    <value>新的出租车电话号码</value>
+  </data>
+  <data name="taxi_b_sms" xml:space="preserve">
+    <value>发送短信到出租车地图</value>
+  </data>
+  <data name="taxi_cel_num" xml:space="preserve">
+    <value>您的CEL号</value>
+  </data>
+  <data name="taxi_destino" xml:space="preserve">
+    <value>您的地址，目的</value>
+  </data>
+  <data name="taxi_last_name" xml:space="preserve">
+    <value>您的姓氏</value>
+  </data>
+  <data name="tBefore" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="tDose" xml:space="preserve">
+    <value>毫升</value>
+  </data>
+  <data name="tDoses" xml:space="preserve">
+    <value>毫升</value>
+  </data>
+  <data name="title_fb" xml:space="preserve">
+    <value>社会信息</value>
+  </data>
+  <data name="title_new_brand" xml:space="preserve">
+    <value>新品牌</value>
+  </data>
+  <data name="tNow" xml:space="preserve">
+    <value>现在</value>
+  </data>
+  <data name="trofeu" xml:space="preserve">
+    <value>我的收藏</value>
+  </data>
+  <data name="tSMS" xml:space="preserve">
+    <value>短信号码</value>
+  </data>
+  <data name="tTotal" xml:space="preserve">
+    <value>总</value>
+  </data>
+  <data name="ttrial" xml:space="preserve">
+    <value>抱歉。试用期结束。如果你想购买为0.99美元的应用程序，点击购买按钮。</value>
+  </data>
+  <data name="txt_update" xml:space="preserve">
+    <value>更新你的饮料数据库</value>
+  </data>
+  <data name="t_brand_name" xml:space="preserve">
+    <value>选择品牌名称</value>
+  </data>
+  <data name="t_drink_type" xml:space="preserve">
+    <value>选择饮料类型</value>
+  </data>
+  <data name="t_envia_foto" xml:space="preserve">
+    <value>发送照片</value>
+  </data>
+  <data name="t_new_brand" xml:space="preserve">
+    <value>新品牌</value>
+  </data>
+  <data name="t_photo" xml:space="preserve">
+    <value>照片分享</value>
+  </data>
+</root>

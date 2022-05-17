@@ -1,0 +1,181 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.Frases_Inicio_08"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:il="clr-namespace:Microsoft.Expression.Interactivity.Layout;assembly=Microsoft.Expression.Interactions"
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+	xmlns:im="clr-namespace:Microsoft.Expression.Interactivity.Media;assembly=Microsoft.Expression.Interactions"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikData="clr-namespace:Telerik.Windows.Data;assembly=Telerik.Windows.Data"
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input"
+    xmlns:telerikDataControls="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    telerikCore:InteractionEffectManager.IsInteractionEnabled="true"
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+ 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+
+    <phone:PhoneApplicationPage.Resources>
+        <Style TargetType="telerikPrimitives:RadDataBoundListBoxItem" 
+               x:Key="ItemContainerStyle">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        </Style>
+
+
+
+        <DataTemplate x:Key="JumpListItemTemplate">
+            <Grid Margin="1" x:Name="TemplateLayoutRoot">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <StackPanel Orientation="Horizontal">
+                        <Border  CornerRadius="3" BorderBrush="White" BorderThickness="2" Background="Transparent">
+                            <Image Source="{Binding pic}" HorizontalAlignment="Center" 
+                                   Stretch="UniformToFill"
+                                   Height="32" Width="32"/>
+                        </Border>
+                        <TextBlock Text="{Binding name}"  Foreground="#b1b72f"  
+                                   FontSize="32" Margin="8,0"/>
+                    </StackPanel>
+                    <Border Margin="0,5"  Name="border1" 
+                            HorizontalAlignment="Stretch" Width="640"   
+                            Height="1" VerticalAlignment="Top" BorderBrush="Black"  BorderThickness="1" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+
+
+    </phone:PhoneApplicationPage.Resources>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Height="768">
+        <Grid.Background>
+            <ImageBrush Opacity="0.5" ImageSource="fundo_tela_480-01.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="133"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="TitlePanel" Margin="12,17,0,593" Grid.RowSpan="2">
+            <TextBlock x:Name="AppTitleFri" 
+                       Text="{Binding Path=Resources.AppTitleFri, 
+                  Source={StaticResource Localization}}"  
+                       Style="{StaticResource PhoneTextNormalStyle}" Width="315" HorizontalAlignment="Left" />
+            <TextBlock x:Name="PTitleFriends" 
+                        Text="{Binding Path=Resources.PTitleFriends, 
+                  Source={StaticResource Localization}}"  
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="40" />
+        </StackPanel>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="0,103,0,30" Grid.RowSpan="2">
+
+
+
+            <telerikPrimitives:RadDataBoundListBox Height="100" 
+              HorizontalAlignment="Left"  
+              Name="listBox2" 
+            IsCheckModeActive="True" 
+            Visibility="Collapsed" />
+            <telerikDataControls:RadJumpList   
+                HorizontalAlignment="Stretch" 
+                IsStickyHeaderEnabled="False" 
+                 x:Name="lb3" 
+                ItemTemplate="{StaticResource JumpListItemTemplate}" 
+                ItemsSource="{Binding}" 
+                IsCheckModeActive="True"
+                GroupCheckMode="Automatic" 
+                ItemContainerStyle="{StaticResource ItemContainerStyle}" 
+                Margin="12,80,8,42"  ItemTap="RadJumpList1_ItemTap" EmptyContent=" ">
+
+
+                <telerikDataControls:RadJumpList.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Border Background="{StaticResource PhoneAccentBrush}" 
+                                Height="44" HorizontalAlignment="Stretch" Margin="0" 
+                                BorderThickness="0">
+                            <TextBlock TextWrapping="Wrap" 
+                                       FontSize="{StaticResource PhoneFontSizeMedium}" 
+                                       FontFamily="{StaticResource PhoneFontFamilySemiBold}" 
+                                       Text="{Binding Key.pic}" 
+                                       Margin="4" 
+                                       VerticalAlignment="Bottom" 
+                                       HorizontalAlignment="Left" />
+                        </Border>
+                    </DataTemplate>
+                </telerikDataControls:RadJumpList.GroupHeaderTemplate>
+
+
+
+
+                <telerikDataControls:RadJumpList.SortDescriptors>
+
+                    <telerikData:PropertySortDescriptor PropertyName="name"/>
+
+                </telerikDataControls:RadJumpList.SortDescriptors>
+
+
+                <telerikDataControls:RadJumpList.GroupPickerItemTemplate>
+                    <DataTemplate>
+
+
+                        <Button Background="{StaticResource PhoneAccentBrush}">
+                            <TextBlock FontSize="{StaticResource PhoneFontSizeLarge}" 
+                                FontFamily="{StaticResource PhoneFontFamilySemiLight}"  
+                                       
+                                Text="{Binding}" 
+                                Margin="4" 
+                                VerticalAlignment="Stretch" 
+                                HorizontalAlignment="Left"/>
+
+
+                        </Button>
+                    </DataTemplate>
+                </telerikDataControls:RadJumpList.GroupPickerItemTemplate>
+
+
+
+                <telerikDataControls:RadJumpList.StickyHeaderTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" HorizontalAlignment="Stretch" Background="{StaticResource PhoneBackgroundBrush}" Padding="0, 0, 0, 0">
+                            <Border VerticalAlignment="Top" Background="{StaticResource PhoneAccentBrush}" Height="44" HorizontalAlignment="Stretch" Margin="4, 4, 4, 4" BorderThickness="1">
+                                <TextBlock FontSize="{StaticResource PhoneFontSizeMedium}" FontFamily="{StaticResource PhoneFontFamilyLight}" Text="{Binding Key}" Margin="4" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" />
+                            </Border>
+                        </Border>
+                    </DataTemplate>
+                </telerikDataControls:RadJumpList.StickyHeaderTemplate>
+
+
+
+
+
+
+            </telerikDataControls:RadJumpList>
+            <ListBox Height="100" HorizontalAlignment="Left" Margin="12,91,0,0" Name="listBox1" VerticalAlignment="Top" Width="460" Visibility="Collapsed" />
+            <CheckBox Content="Select all" Height="72" HorizontalAlignment="Left" Margin="21,-6,0,0" Name="cbAll" VerticalAlignment="Top" Click="cbAll_Click" />
+        </Grid>
+        <Image Height="30" HorizontalAlignment="Left" Margin="10,10,0,93" Name="image11" Source="/images/Karaka_branco.png" Stretch="Fill" Width="115" />
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+
+        <shell:ApplicationBar IsVisible="True" BackgroundColor="#251505">
+
+            <!--           <shell:ApplicationBarIconButton IconUri="/Images/OK.png" Click="OK_Button" Text="Ok"/>-->
+            <shell:ApplicationBarIconButton x:Name="b_grava" IconUri="/Images/Save.png" Click="Grava_Button" Text="Save"/>
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,111 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.Frases_Inicio_04"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+
+        <Grid.Background>
+            <ImageBrush Opacity="0.5" ImageSource="fundo_tela_480-01.jpg"></ImageBrush>
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <Image Height="30" Name="image1" Stretch="Fill" Width="115" 
+             HorizontalAlignment="Left"    Source="/images/Karaka_branco.png" />
+            <TextBlock x:Name="PageTitle" Text="" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="Verdana" FontSize="20" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Height="233" HorizontalAlignment="Left" 
+                   Margin="24,263,0,0" Name="image2" Stretch="Fill" 
+                   Source="/images/lousa_02.jpg"
+                   VerticalAlignment="Top" Width="421" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="24,29,0,0" Name="textBlock1" Text="Step 4:" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="26,502,0,0" Name="textBlock2" Text="Select object 4:" VerticalAlignment="Top" />
+
+
+            <TextBox Height="214" 
+                     MaxLength="200"
+                     InputScope="Search"
+                     HorizontalAlignment="Left" Margin="36,274,0,0" 
+                     Name="text_sel" Text="" VerticalAlignment="Top" 
+                     Width="396" TextWrapping="Wrap" 
+                     TextAlignment="Center" FontFamily="Comic Sans MS" 
+                     BorderThickness="0"
+                     Background="Transparent"
+                     FontSize="20" Foreground="Yellow" 
+                     KeyUp="text_sel_KeyUp" 
+                     SelectionForeground="#FF0D0000" 
+                     LostFocus="text_sel_LostFocus" 
+                     TextChanged="text_sel_TextChanged" 
+                     MouseEnter="mouse_enter"/>
+
+
+
+
+            <Image Height="100" HorizontalAlignment="Left" Margin="30,538,0,0" 
+                   Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="114" 
+                    Source="/images/FB_frase.png" Tap="image3_Tap" 
+                    />
+            <Image Height="100" HorizontalAlignment="Left" 
+                   Margin="167,538,0,0" Name="image4" Stretch="Fill"
+                     Source="/images/FB_Album.png"
+                   
+                   
+                   VerticalAlignment="Top" Width="114" Tap="image4_Tap" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="58,638,0,0" Name="textBlock4" Text="Phrase" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="195,641,0,0" Name="textBlock5" Text="Photos" VerticalAlignment="Top" />
+            <Image Height="195" HorizontalAlignment="Center" Margin="42,275,26,206" 
+                   Name="img_sel" Stretch="Uniform" VerticalAlignment="Center" 
+                   Width="380" />
+            
+            
+            
+            <Image Height="63" HorizontalAlignment="Left" Margin="299,558,0,0" 
+                   Name="image5" Stretch="Fill" VerticalAlignment="Top" Width="67"
+                   
+                    Source="/images/seta_esquerda.png"
+                   
+                   Tap="image5_Tap"  />
+            <Image Height="63" HorizontalAlignment="Left" 
+                   Margin="376,558,0,0" Name="image6" Stretch="Fill" 
+                    Source="/images/seta_direita.png"
+                   VerticalAlignment="Top" Width="67" Tap="image6_Tap" />
+            <CheckBox Content="copy object 3" Height="72" HorizontalAlignment="Left" Margin="10,201,0,0" Name="checkBox1" VerticalAlignment="Top" Width="430" Checked="checkBox1_Checked" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="359,502,0,0" Name="tconta" Text="" VerticalAlignment="Top" Width="86" />
+            <TextBlock Height="153" HorizontalAlignment="Left" Margin="26,58,0,0" Name="textBlock3" Text="The objects will be sent to our servers so that your friends using the Social Drink the system displays its objects." VerticalAlignment="Top" Width="419" TextWrapping="Wrap" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

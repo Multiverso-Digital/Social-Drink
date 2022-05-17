@@ -1,0 +1,90 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.Sobre"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="728" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False">
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="sobre_background.jpg"></ImageBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,0" Grid.RowSpan="2">
+           
+            
+            <ListBox Height="377" Foreground="White" 
+                     HorizontalAlignment="Center" Margin="-12,279,0,0" 
+                     Name="listBox1" VerticalAlignment="Top" Width="460" 
+                     ItemsSource="{Binding}" >
+               
+                <ListBoxItem Content="Version 1.6" HorizontalAlignment="Center" />
+                <ListBoxItem Content=" " HorizontalAlignment="Center" />
+
+                <ListBoxItem Content="software developers: abreu@abreuretto.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content=" and alfredo.mapelli@gmail.com"  HorizontalAlignment="Center" />
+                <ListBoxItem Content="oficial site: www.abreuretto.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="icons: Bruno Maia www.icontexto.com" HorizontalAlignment="Center"/>
+                <ListBoxItem Content="data base server: www.buddy.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="revision: Anita e Guab" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks to telerik www.telerik.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="all drinks trademark are reported(input) by users" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks www.codeproject.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks stackoverflow.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks create.msdn.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks msdn.microsoft.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks nuget.org/packages/" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks channel9.msdn.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks Google API google.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks Bing API bing.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks Geonames geonames.org" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks Buddy guys buddy.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks Nokia Places API nokia.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks FourSquare Places API foursquare.com" HorizontalAlignment="Center" />
+                <ListBoxItem Content="thanks my wife and kids" HorizontalAlignment="Center" />
+                <ListBoxItem Content="translation by Google translator" HorizontalAlignment="Center" />
+                <ListBoxItem Content=" " HorizontalAlignment="Center" />
+                <ListBoxItem Content="© CopyRigth 2012" HorizontalAlignment="Center" />
+            </ListBox>
+            <HyperlinkButton 
+                             
+                Content="{Binding Path=Resources.b_hyper, 
+                Source={StaticResource Localization}}"
+                             
+                             
+                             Height="54" HorizontalAlignment="Left" 
+                             Margin="6,14,0,0" Name="b_hyper" 
+                             VerticalAlignment="Top" Width="444" 
+                             Foreground="#FF727162" FontSize="40" 
+                             Click="hyperlinkButton1_Click" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar  IsVisible="True" IsMenuEnabled="True" BackgroundColor="#b1b72f">
+            <shell:ApplicationBarIconButton IconUri="/Images/estrela.png" Text="Rating" Click="button3_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.feature.email.rest.png" x:Name="email" Click="email_Click" Text="Email"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/fb.png" x:Name="fb" Click="fb_Click" Text="Facebook"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

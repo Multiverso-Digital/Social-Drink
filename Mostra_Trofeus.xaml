@@ -1,0 +1,97 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.Mostra_Trofeus"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:il="clr-namespace:Microsoft.Expression.Interactivity.Layout;assembly=Microsoft.Expression.Interactions"
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+	xmlns:im="clr-namespace:Microsoft.Expression.Interactivity.Media;assembly=Microsoft.Expression.Interactions"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+	
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	SupportedOrientations="Portrait" Orientation="Portrait"
+	shell:SystemTray.IsVisible="False">
+    
+
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+
+        <Grid.Background>
+            <ImageBrush ImageSource="fundo_tela_480_bebidas.jpg" Stretch="Uniform">                
+            </ImageBrush>
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,8,12,0" Grid.RowSpan="2">
+
+            <Grid x:Name="grid_mesa" Margin="1,0,-1,18" 
+				Height="143" VerticalAlignment="Bottom">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.296*"/>
+                    <ColumnDefinition Width="0.704*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="mesa" 
+                       Margin="-47,0,-38,-152" 
+                       Source="/images/mesa.png" Stretch="Fill"  
+                       Grid.ColumnSpan="2" Height="217" VerticalAlignment="Bottom" 
+                       Tag="52"/>
+            </Grid>
+            <Grid x:Name="grid_garrafa" Margin="-7,0,8,23" >
+                <Image Height="86" Visibility="Collapsed" Margin="63,0,0,28" Source="images/trofel02.png" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="55"/>
+                <Image Height="80" Visibility="Collapsed" Margin="214,0,145,28" Source="images/trofel01.png" Stretch="Fill" VerticalAlignment="Bottom"/>
+                <Image Height="70" Visibility="Collapsed" Margin="136,0,0,13" Source="images/trofel03.png" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="83"  UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+                <Image Visibility="Collapsed" HorizontalAlignment="Right" Height="55" Margin="0,0,49.514,22.922" Source="images/trofel04.png" Stretch="Fill" VerticalAlignment="Bottom" Width="95.972" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+                <Image Visibility="Collapsed" Margin="165,128,198,0" Source="images/medal04.png" Stretch="Fill" Height="99" VerticalAlignment="Top"/>
+                <Image Visibility="Collapsed" Margin="22,249,0,296" Source="images/medal05.png" Stretch="Fill" HorizontalAlignment="Left" Width="96"/>
+                <Image Visibility="Collapsed" Margin="0,128,42,0" Source="images/medal06.png" Stretch="Fill" Height="107" VerticalAlignment="Top" HorizontalAlignment="Right" Width="107"/>
+                <Image Visibility="Collapsed" Margin="165,249,179,309" Source="images/medal07.png" Stretch="Fill" Height="107" />
+                <Image Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,249,42,309" Source="images/medal08.png" Stretch="Fill" Width="109"/>
+                <Image Visibility="Collapsed" Height="112" Margin="22,0,0,184" Source="images/medal09.png" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="120"/>
+                <Image Visibility="Collapsed" Height="102" Margin="173,0,179,190" Source="images/medal10.png" Stretch="Fill" VerticalAlignment="Bottom"/>
+                <Image Visibility="Collapsed" HorizontalAlignment="Right" Height="102" Margin="0,0,42,190" Source="images/medal11.png" Stretch="Fill" VerticalAlignment="Bottom" Width="103"/>
+                <TextBlock Height="64" FontSize="48" 
+                           Margin="80,37,61,0" TextWrapping="Wrap" 
+                            Name="trofeu"
+                           
+                              Text="{Binding Path=Resources.trofeu, 
+                Source={StaticResource Localization}}"
+                           VerticalAlignment="Top"/>
+            </Grid>
+            <Image HorizontalAlignment="Left" Visibility="Collapsed"  Height="102" Margin="34,130,0,0" Source="images/medal01.png" Stretch="Fill" VerticalAlignment="Top" Width="47"/>
+        </Grid>
+        <Image Grid.Row="1" Height="675" HorizontalAlignment="Left" 
+               Margin="10,9,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="450" />
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" BackgroundColor="Transparent">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.image.select.png"  Text="Sc. capture" Click="Captura_Click"/>
+            
+    
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+
+</phone:PhoneApplicationPage>

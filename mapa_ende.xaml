@@ -1,0 +1,101 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.mapa_ende"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="728" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False" xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <phone:PhoneApplicationPage.Resources>
+
+
+
+        <ControlTemplate x:Key="pinMyLoc" TargetType="my:Pushpin">
+            <Grid Height="26" Width="26" Margin="-13,-13,0,0" RenderTransformOrigin="0.5,0.5">
+                <Grid.RenderTransform>
+                    <CompositeTransform Rotation="-45"/>
+                </Grid.RenderTransform>
+                <Rectangle Fill="Transparent" HorizontalAlignment="Center"          
+                Margin="0" Stroke="Transparent" VerticalAlignment="Center"        
+                 Height="26" Width="26"/>
+                <Ellipse HorizontalAlignment="Center" Height="16" Margin="0"          
+                 VerticalAlignment="Center" Fill="Red"
+                 Width="16"/>
+            </Grid>
+        </ControlTemplate>
+
+
+        <Style x:Key="HeaderStyle" TargetType="ContentControl">
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeSmall}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneSubtleBrush}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="0,0,0,8"/>
+        </Style>
+        <Style x:Key="DateTimeHeaderStyle" TargetType="ContentControl" BasedOn="{StaticResource HeaderStyle}">
+            <Setter Property="Margin" Value="10,0,0,-3"/>
+        </Style>
+
+
+
+
+
+
+    </phone:PhoneApplicationPage.Resources>
+
+
+    <Grid x:Name="LayoutRoot" >
+
+        <Grid.Background>
+            <ImageBrush  ImageSource="fundo_tela_480-01.jpg"></ImageBrush>
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="b_info" 
+                  Text="{Binding Path=Resources.b_info, 
+                  Source={StaticResource Localization}}"  
+                       
+                      
+                       
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <my:Map CredentialsProvider="ApIlk15OooGYg6FY_vklyYbcEjeg9kwIILFZKux6s7JZXT5tSo9k066YfZOImtuy"  Height="399" HorizontalAlignment="Left" Margin="12,0,0,6" Name="map1" VerticalAlignment="Bottom" Width="438"  Tap="map1_Tap"/>
+            <TextBlock Height="85" HorizontalAlignment="Left" Margin="13,10,0,0" Name="eNome" Text="TextBlock" VerticalAlignment="Top" Width="431" FontSize="32" Foreground="#FF84EF28" TextWrapping="Wrap" />
+            <TextBlock Height="50" HorizontalAlignment="Left" Margin="15,101,0,0" Name="eEnde" Text="TextBlock" VerticalAlignment="Top" Width="429" Foreground="#FF84EF28" TextWrapping="Wrap" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+   <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" BackgroundColor="#b1b72f">
+            <shell:ApplicationBarIconButton x:Name="editar" IconUri="/Images/edit.png" Text="edit place" Click="editar_click"/>
+            <shell:ApplicationBarIconButton x:Name="excluir" IconUri="/Images/appbar.delete.rest.png" Text="delete place" Click="deletar_click"/>
+            <shell:ApplicationBarIconButton x:Name="drinks" IconUri="/Images/appbar.cup.paper.png" Text="my drinks" Click="drinks_click"/>
+            <shell:ApplicationBarIconButton x:Name="route" IconUri="/Images/appbar.location.circle.png" Text="route" Click="route_click"/>
+
+
+            <shell:ApplicationBar.MenuItems>
+                
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,175 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.MostraMarcas"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:telerikData="clr-namespace:Telerik.Windows.Data;assembly=Telerik.Windows.Data"
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input"
+    xmlns:telerikDataControls="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    telerikCore:InteractionEffectManager.IsInteractionEnabled="true"
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="728" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="False">
+
+
+
+
+    <phone:PhoneApplicationPage.Resources>
+
+
+
+      
+
+
+
+
+
+
+
+      
+        
+        
+        <DataTemplate x:Key="JumpListItemTemplate">
+            <Grid Margin="1" x:Name="TemplateLayoutRoot">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <StackPanel Orientation="Horizontal">
+                        <Border  CornerRadius="3" 
+                                 BorderBrush="White" 
+                                 BorderThickness="2" 
+                                 Background="Transparent">
+                        <Image Source="{Binding img}" 
+                               HorizontalAlignment="Left" 
+                               Height="32" Width="32"/>
+                        </Border>
+                        <TextBlock Text="{Binding Nome}"  Foreground="#b1b72f"  FontSize="32" Margin="8,0"/>
+                    </StackPanel>
+                    <Border Margin="0,5"  Name="border1" HorizontalAlignment="Stretch" Width="640"    Height="1" VerticalAlignment="Top" BorderBrush="Black"  BorderThickness="1" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        
+        
+    </phone:PhoneApplicationPage.Resources>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Height="768">
+        <Grid.Background>
+            <ImageBrush ImageSource="fundo_tela_480-01.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="133"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="TitlePanel" Margin="12,17,0,593" Grid.RowSpan="2">
+            <TextBlock x:Name="AppTitleBrand" 
+                       Text="{Binding Path=Resources.AppTitleBrand, 
+                  Source={StaticResource Localization}}"  
+                       Style="{StaticResource PhoneTextNormalStyle}" Width="315" HorizontalAlignment="Left" />
+            <TextBlock x:Name="PTitleBrand" 
+                        Text="{Binding Path=Resources.PTitleBrand, 
+                  Source={StaticResource Localization}}"  
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="0,103,0,30" Grid.RowSpan="2">
+
+
+
+            <telerikPrimitives:RadDataBoundListBox Height="100" 
+              HorizontalAlignment="Left"  
+               Name="listBox2" Visibility="Collapsed" />
+
+
+
+
+            <telerikInput:RadAutoCompleteBox  
+                
+                
+
+
+
+
+                InputScope="search" 
+                Height="90" 
+                Grid.Row="0"
+                x:Name="eMarca" 
+                AutoCompleteMode="Contains"
+                Background="Silver"
+                SuggestionSelected="radAutoCompleteBox_SuggestionSelected_1" 
+                Margin="14,0,-4,563"  
+                GotFocus="radAutoCompleteBox_GotFocus" 
+                KeyUp="radAutoCompleteBox_KeyUp" LostFocus="eMarca_LostFocus" />
+
+
+            <telerikDataControls:RadJumpList   HorizontalAlignment="Stretch" 
+                                               IsStickyHeaderEnabled="False" 
+                                               x:Name="RadJumpList1" 
+                                               ItemTemplate="{StaticResource JumpListItemTemplate}" 
+                                               ItemsSource="{Binding}" 
+                                               Margin="26,80,8,42"  
+                                               ItemTap="RadJumpList1_ItemTap" 
+                                               EmptyContent=" ">
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+            </telerikDataControls:RadJumpList>
+
+            <Image Height="49" HorizontalAlignment="Left" 
+                   Margin="423,23,0,0" Name="image1" Stretch="Fill" 
+                   VerticalAlignment="Top" Width="57" 
+                   Source="/images/appbar.feature.search.rest.png" />
+
+
+       
+
+
+
+
+        </Grid>
+
+        <telerikPrimitives:RadBusyIndicator Background="Transparent" 
+											x:Name="busyIndicator" 
+											Foreground="White"
+											AnimationStyle="AnimationStyle9" 
+                                            Content="Loading..." />
+
+
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+
+        <shell:ApplicationBar IsVisible="True" BackgroundColor="#b1b72f">
+            
+ <!--           <shell:ApplicationBarIconButton IconUri="/Images/OK.png" Click="OK_Button" Text="Ok"/>-->
+            <shell:ApplicationBarIconButton x:Name="b_novo" IconUri="/Images/Add.png" Click="Add_Button" Text="New brand"/>
+<shell:ApplicationBarIconButton x:Name="b_delete" IconUri="/Images/appbar.delete.rest.png" Click="Del_Button" Text="Delete brands"/>
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+</phone:PhoneApplicationPage>

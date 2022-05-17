@@ -1,0 +1,92 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Social_Drink.Mostra_Info_Promo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Title="Promotion">
+            <!--Pivot item one-->
+
+            <controls:Pivot.Background>
+                <ImageBrush  Stretch="Fill"  
+                             ImageSource="/Social Drink;component/fundo_tela_480-01.jpg"/>
+
+            </controls:Pivot.Background>
+
+            <controls:PivotItem Header="QR Code">
+                <Grid>
+                    <Image Height="469" 
+                           HorizontalAlignment="Left" 
+                           Margin="9,35,0,0" Name="image1" 
+                           Stretch="Uniform" VerticalAlignment="Top" Width="422" 
+                           Source="/images/explica_promo.png" />
+                
+                    
+                    <TextBlock HorizontalAlignment="Left" 
+                               Margin="222,37,0,438" 
+                               Name="QRT1" 
+                                  Text="{Binding Path=Resources.QRT1, 
+                  Source={StaticResource Localization}}" 
+                               
+                               
+                               Width="189" TextWrapping="Wrap" Height="132" />
+                    <TextBlock HorizontalAlignment="Left" Margin="223,212,0,282" 
+                               Name="QRT2" 
+                                  Text="{Binding Path=Resources.QRT2, 
+                  Source={StaticResource Localization}}" 
+               
+                               
+                               
+                               TextWrapping="Wrap" Width="202" />
+                   
+                    
+                    
+                    <TextBlock HorizontalAlignment="Left" Margin="221,380,0,114" 
+                               Name="QRT3" 
+                              
+                                     Text="{Binding Path=Resources.QRT3, 
+                  Source={StaticResource Localization}}" 
+               
+                               
+                               
+                               TextWrapping="Wrap" Width="202" />
+               
+                
+                
+                
+                
+                
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+
+        </controls:Pivot>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>

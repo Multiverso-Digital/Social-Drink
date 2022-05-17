@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>ApplicationIcon.png</SmallAppTile>
+  <LargeAppTile>Background.png</LargeAppTile>
+  <PCAppTile>tile200.png</PCAppTile>
+  <ScreenShots>tela01.png;tela02.png;tela03.png;tela04.png;tela05.png;tela06.png;tela07.png;tela08.png;</ScreenShots>
+</MarketplaceDetails>

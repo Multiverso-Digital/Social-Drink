@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<ArrayOfCategoriasViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoriasViewModel>
+		<ID>659</ID>
+		<Nome>Wineries &amp; Vineyards</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>522</ID>
+		<Nome>Travel Agents &amp; Tour Operators</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>583</ID>
+		<Nome>Tourist Information &amp; Services</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>597</ID>
+		<Nome>Tourist Attractions</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>605</ID>
+		<Nome>Tour Operators &amp; Cruises</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>813</ID>
+		<Nome>Limos &amp; Chauffers</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>849</ID>
+		<Nome>Charter Buses</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>363</ID>
+		<Nome>Taxi &amp; Car Services</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>724</ID>
+		<Nome>Resorts</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>484</ID>
+		<Nome>Railroads &amp; Trains</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>403</ID>
+		<Nome>Public Transportation &amp; Transit</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>520</ID>
+		<Nome>Parking</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>531</ID>
+		<Nome>Monuments</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>859</ID>
+		<Nome>Lodges &amp; Vacation Rentals</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>390</ID>
+		<Nome>Hotels &amp; Motels</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>628</ID>
+		<Nome>Hostels</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>680</ID>
+		<Nome>Cottages &amp; Cabins</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>511</ID>
+		<Nome>Bed &amp; Breakfasts</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>689</ID>
+		<Nome>Lodging</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>879</ID>
+		<Nome>Limos, Armored Cars &amp; Chauffeurs</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>664</ID>
+		<Nome>Horse-Drawn Vehicles</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>547</ID>
+		<Nome>Historical Sites</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>657</ID>
+		<Nome>Cruises</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>436</ID>
+		<Nome>Charter &amp; Private Planes</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>353</ID>
+		<Nome>Airports</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>488</ID>
+		<Nome>Airlines</Nome>
+		<SubCategoria>Travel &amp; Tourism</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>812</ID>
+		<Nome>Zoos, Aquariums &amp; Wildlife Sanctuaries</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>725</ID>
+		<Nome>Yoga &amp; Pilates</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>569</ID>
+		<Nome>Tennis</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>473</ID>
+		<Nome>Swimming Pools</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>864</ID>
+		<Nome>Stadiums, Arenas &amp; Athletic Fields</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>630</ID>
+		<Nome>Sports Teams</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>474</ID>
+		<Nome>Sports Instruction</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>555</ID>
+		<Nome>Sports Clubs</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>416</ID>
+		<Nome>Sports &amp; Recreation Centers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>566</ID>
+		<Nome>Soccer Clubs &amp; Instruction</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>718</ID>
+		<Nome>Skydiving</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>485</ID>
+		<Nome>Race Tracks</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>594</ID>
+		<Nome>Playgrounds</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>750</ID>
+		<Nome>Personal Trainers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>861</ID>
+		<Nome>Water Sports</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>826</ID>
+		<Nome>Ski &amp; Snowboard</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>798</ID>
+		<Nome>Scuba Diving</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>819</ID>
+		<Nome>Rock Climbing</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>727</ID>
+		<Nome>Rafting</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>551</ID>
+		<Nome>Parks</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>719</ID>
+		<Nome>Lakes</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>807</ID>
+		<Nome>Hunting &amp; Fishing</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>828</ID>
+		<Nome>Hot Air Balloons</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>733</ID>
+		<Nome>Hiking</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>500</ID>
+		<Nome>Golf</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>870</ID>
+		<Nome>Canoes &amp; Kayaks</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>793</ID>
+		<Nome>Campgrounds &amp; RV Parks</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>717</ID>
+		<Nome>Beaches</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>543</ID>
+		<Nome>Outdoor Recreation</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>527</ID>
+		<Nome>Martial Arts</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>575</ID>
+		<Nome>Ice Skating</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>598</ID>
+		<Nome>Hockey</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>388</ID>
+		<Nome>Gyms &amp; Fitness Centers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>746</ID>
+		<Nome>Gun Ranges</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>723</ID>
+		<Nome>Football</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>563</ID>
+		<Nome>Fairgrounds &amp; Rodeos</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>716</ID>
+		<Nome>Circuses</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>735</ID>
+		<Nome>Carnivals</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>751</ID>
+		<Nome>Boat Charters &amp; Rentals</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>373</ID>
+		<Nome>Bicycle Rentals</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>496</ID>
+		<Nome>Baseball</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>530</ID>
+		<Nome>Archery</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>883</ID>
+		<Nome>Ski &amp; Snowboard Centers &amp; Resorts</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>653</ID>
+		<Nome>Rifle &amp; Pistol Ranges</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>616</ID>
+		<Nome>Recreation Centers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>620</ID>
+		<Nome>Party Centers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>655</ID>
+		<Nome>Paintball</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>880</ID>
+		<Nome>Hunting, Fishing &amp; Archery</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>876</ID>
+		<Nome>Golf Courses</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>614</ID>
+		<Nome>Health &amp; Fitness Centers</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>632</ID>
+		<Nome>Football Clubs</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>656</ID>
+		<Nome>Circus &amp; Zoos</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>629</ID>
+		<Nome>Camps</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>667</ID>
+		<Nome>Archery Ranges</Nome>
+		<SubCategoria>Sports &amp; Recreation</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>676</ID>
+		<Nome>Wholesale Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>462</ID>
+		<Nome>Wedding &amp; Bridal Shops</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>492</ID>
+		<Nome>Vintage Stores &amp; Thrift Shops</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>460</ID>
+		<Nome>Video Rental</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>544</ID>
+		<Nome>Toy Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>401</ID>
+		<Nome>Tobacco Shops</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>394</ID>
+		<Nome>Tailors</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>361</ID>
+		<Nome>Supermarkets &amp; Groceries</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>512</ID>
+		<Nome>Sporting Goods</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>705</ID>
+		<Nome>Shopping Centers &amp; Malls</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>381</ID>
+		<Nome>Pet Shops &amp; Pet Supplies</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>440</ID>
+		<Nome>Pawn Shops</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>526</ID>
+		<Nome>Outlet Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>380</ID>
+		<Nome>Nurseries &amp; Garden Centers</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>379</ID>
+		<Nome>Newsstands</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>508</ID>
+		<Nome>Music</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>525</ID>
+		<Nome>Luggage</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>740</ID>
+		<Nome>Hobby, Collectivles &amp; Craft Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>452</ID>
+		<Nome>Hobby, Collectibles &amp; Craft Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>608</ID>
+		<Nome>Groceries</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>407</ID>
+		<Nome>Glasses &amp; Optometrist</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>523</ID>
+		<Nome>Gift &amp; Novelty Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>358</ID>
+		<Nome>Gas Stations &amp; Convenience Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>366</ID>
+		<Nome>Furniture</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>364</ID>
+		<Nome>Florists</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>362</ID>
+		<Nome>Flea Markets</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>377</ID>
+		<Nome>Shoes</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>417</ID>
+		<Nome>Jewelry &amp; Watches</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>331</ID>
+		<Nome>Clothing &amp; Accessories</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>513</ID>
+		<Nome>Fashion</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>622</ID>
+		<Nome>DVD Rental</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>809</ID>
+		<Nome>Discount Stores, Warehouses &amp; Wholesale Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>611</ID>
+		<Nome>Discount Stores &amp; Pawn Shops</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>603</ID>
+		<Nome>Department Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>613</ID>
+		<Nome>Costumes</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>378</ID>
+		<Nome>Computers &amp; Electronics</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>430</ID>
+		<Nome>Children's Products</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>493</ID>
+		<Nome>Cards &amp; Stationery</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>411</ID>
+		<Nome>Candy Stores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>549</ID>
+		<Nome>Cameras &amp; Photos &amp; Frames</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>405</ID>
+		<Nome>Bookstores</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>619</ID>
+		<Nome>Bicycle Sales &amp; Service</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>564</ID>
+		<Nome>Beauty Products</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>665</ID>
+		<Nome>Bakery Equipment &amp; Supplies</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>483</ID>
+		<Nome>Auctions</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>580</ID>
+		<Nome>ATMs</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>347</ID>
+		<Nome>Arts &amp; Crafts Supplies</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>668</ID>
+		<Nome>Art Restoration</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>419</ID>
+		<Nome>Antiques</Nome>
+		<SubCategoria>Shopping</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>643</ID>
+		<Nome>Windows</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>479</ID>
+		<Nome>Upholstery</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>741</ID>
+		<Nome>Tree Service</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>855</ID>
+		<Nome>Swimming Pool Maintenance &amp; Services</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>418</ID>
+		<Nome>Storage</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>600</ID>
+		<Nome>Solar Energy</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>399</ID>
+		<Nome>Roofers</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>782</ID>
+		<Nome>Real Estate Development &amp; Title Companies</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>843</ID>
+		<Nome>Real Estate Appraiser</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>791</ID>
+		<Nome>Real Estate Agents</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>817</ID>
+		<Nome>Property Management</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>627</ID>
+		<Nome>Pools &amp; Spas</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>356</ID>
+		<Nome>Plumbing</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>426</ID>
+		<Nome>Pest Control</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>414</ID>
+		<Nome>Painting</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>408</ID>
+		<Nome>Movers</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>663</ID>
+		<Nome>Mobile Homes</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>510</ID>
+		<Nome>Lighting Fixtures</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>769</ID>
+		<Nome>Landscaping &amp; Gardeners</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>602</ID>
+		<Nome>Land Surveyors</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>504</ID>
+		<Nome>Kitchens</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>437</ID>
+		<Nome>Interior Design</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>591</ID>
+		<Nome>Housewares</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>854</ID>
+		<Nome>Home Inspection Services</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>404</ID>
+		<Nome>Home Cleaning</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>736</ID>
+		<Nome>Home Appraiser</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>349</ID>
+		<Nome>Home Appliances</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>774</ID>
+		<Nome>Heating, Ventilating &amp; Air Conditioning</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>800</ID>
+		<Nome>Hardware &amp; Services</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>801</ID>
+		<Nome>Fences, Fireplaces &amp; Garage Doors</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>428</ID>
+		<Nome>Electricians</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>756</ID>
+		<Nome>Corporate Housing</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>836</ID>
+		<Nome>Sewer</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>846</ID>
+		<Nome>Deck &amp; Patio</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>333</ID>
+		<Nome>Contractors</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>768</ID>
+		<Nome>Construction Supplies</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>808</ID>
+		<Nome>Commercial Real Estate</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>389</ID>
+		<Nome>Carpet &amp; Flooring</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>498</ID>
+		<Nome>Carpenters</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>764</ID>
+		<Nome>Building &amp; Land Surveyors</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>734</ID>
+		<Nome>Boarding Houses</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>772</ID>
+		<Nome>Apartments &amp; Condos</Nome>
+		<SubCategoria>Real Estate &amp; Home Improvement</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>821</ID>
+		<Nome>Wigs, Hairpieces &amp; Extensions</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>466</ID>
+		<Nome>Tattooing</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>609</ID>
+		<Nome>Tanning Salons</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>521</ID>
+		<Nome>Piercing</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>771</ID>
+		<Nome>Massage Clinics &amp; Therapists</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>529</ID>
+		<Nome>Manicures &amp; Pedicures</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>433</ID>
+		<Nome>Hair Salons &amp; Barbers</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>476</ID>
+		<Nome>Hair Removal</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>873</ID>
+		<Nome>Hair &amp; Beauty Supplies, Service &amp; Equipment</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>797</ID>
+		<Nome>Day Spas &amp; Destination Spas</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>334</ID>
+		<Nome>Beauty &amp; Skin Care</Nome>
+		<SubCategoria>Personal Care &amp; Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>711</ID>
+		<Nome>Merchant Solutions</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>424</ID>
+		<Nome>Loans &amp; Mortgages</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>601</ID>
+		<Nome>Legal &amp; Immigration Services</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>332</ID>
+		<Nome>Lawyers &amp; Legal Services</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>339</ID>
+		<Nome>Insurance</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>755</ID>
+		<Nome>Immigration Services</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>631</ID>
+		<Nome>Fund Raising &amp; Financial Aid</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>803</ID>
+		<Nome>Financial Planning &amp; Investments</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>863</ID>
+		<Nome>Credit Counseling &amp; Bankruptcy Services</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>634</ID>
+		<Nome>Collections</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>489</ID>
+		<Nome>Check Cashing</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>669</ID>
+		<Nome>Business Lawyers &amp; Attorneys</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>626</ID>
+		<Nome>Business Brokers &amp; Franchises</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>712</ID>
+		<Nome>Business &amp; Strategy Consulting</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>386</ID>
+		<Nome>Banking &amp; Financing</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>367</ID>
+		<Nome>Accounting &amp; Bookkeeping</Nome>
+		<SubCategoria>Legal &amp; Financial</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>355</ID>
+		<Nome>Veterinarians</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>831</ID>
+		<Nome>Pregnancy &amp; Childbirth Services</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>435</ID>
+		<Nome>Sports Medicine</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>463</ID>
+		<Nome>Psychiatrists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>400</ID>
+		<Nome>Podiatrists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>464</ID>
+		<Nome>Plastic Surgeons</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>541</ID>
+		<Nome>Pediatricians</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>795</ID>
+		<Nome>Orthopedic Surgeons</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>599</ID>
+		<Nome>Ophthalmologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>596</ID>
+		<Nome>Oncologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>844</ID>
+		<Nome>Obstetricians &amp; Gynecologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>499</ID>
+		<Nome>Internal Medicine</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>472</ID>
+		<Nome>Family Medicine</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>869</ID>
+		<Nome>Ear, Nose &amp; Throat</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>490</ID>
+		<Nome>Dermatologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>708</ID>
+		<Nome>Cardiologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>524</ID>
+		<Nome>Anesthesiologists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>337</ID>
+		<Nome>Physicians</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>867</ID>
+		<Nome>Physical Therapy &amp; Rehabilitation</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>406</ID>
+		<Nome>Pharmacies</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>636</ID>
+		<Nome>Nursing Homes</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>486</ID>
+		<Nome>Nurses</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>770</ID>
+		<Nome>Counseling</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>739</ID>
+		<Nome>Mental Health Services</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>721</ID>
+		<Nome>Medical Supplies &amp; Labs</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>765</ID>
+		<Nome>Hospitals, Clinics &amp; Medical Centers</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>820</ID>
+		<Nome>Chiropractors</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>811</ID>
+		<Nome>Acupuncture</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>810</ID>
+		<Nome>Holistic, Alternative &amp; Naturopathic Medicine</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>357</ID>
+		<Nome>Health Services</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>431</ID>
+		<Nome>Diet &amp; Nutritionists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>346</ID>
+		<Nome>Dentists</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>673</ID>
+		<Nome>Blood Banks &amp; Centers</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>848</ID>
+		<Nome>Birth Control Information &amp; Services</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>537</ID>
+		<Nome>Ambulance Service</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>571</ID>
+		<Nome>AIDS Resources</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>503</ID>
+		<Nome>Abortion Services</Nome>
+		<SubCategoria>Health &amp; Medicine</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>606</ID>
+		<Nome>Supermarkets</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>607</ID>
+		<Nome>Vegan &amp; Vegetarian</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>506</ID>
+		<Nome>Thai</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>461</ID>
+		<Nome>Sushi</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>688</ID>
+		<Nome>Steakhouses</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>640</ID>
+		<Nome>Seafood</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>352</ID>
+		<Nome>Pizza</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>393</ID>
+		<Nome>Middle Eastern</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>470</ID>
+		<Nome>Mexican</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>588</ID>
+		<Nome>Korean</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>507</ID>
+		<Nome>Japanese</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>497</ID>
+		<Nome>Italian</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>365</ID>
+		<Nome>Indian</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>572</ID>
+		<Nome>French</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>415</ID>
+		<Nome>Fast Food</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>582</ID>
+		<Nome>Diners</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>487</ID>
+		<Nome>Delis</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>425</ID>
+		<Nome>Chinese</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>542</ID>
+		<Nome>Burgers</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>574</ID>
+		<Nome>Buffets</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>592</ID>
+		<Nome>Barbecue</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>391</ID>
+		<Nome>American</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>330</ID>
+		<Nome>Restaurants</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>397</ID>
+		<Nome>Juice Bars &amp; Smoothies</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>375</ID>
+		<Nome>Ice Cream Parlors</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>647</ID>
+		<Nome>Health &amp; Diet Food</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>517</ID>
+		<Nome>Farmers' Markets</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>672</ID>
+		<Nome>Dessert</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>585</ID>
+		<Nome>Chocolate</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>587</ID>
+		<Nome>Cheese</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>786</ID>
+		<Nome>Cafes, Coffee Houses &amp; Tea Houses</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>633</ID>
+		<Nome>Breweries</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>453</ID>
+		<Nome>Beer, Wine &amp; Spirits</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>384</ID>
+		<Nome>Bakeries</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>509</ID>
+		<Nome>Bagels &amp; Donuts</Nome>
+		<SubCategoria>Beverage &amp; Food</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>691</ID>
+		<Nome>Vocational Schools</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>515</ID>
+		<Nome>Test Prep &amp; Tutors</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>348</ID>
+		<Nome>Schools</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>748</ID>
+		<Nome>Health &amp; Medicine Education</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>732</ID>
+		<Nome>Gymnastics Instruction</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>753</ID>
+		<Nome>Fraternities &amp; Sororities</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>747</ID>
+		<Nome>Educational Services</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>501</ID>
+		<Nome>Driving School</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>413</ID>
+		<Nome>Dance Instruction</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>561</ID>
+		<Nome>Culinary Schools &amp; Cooking Lessons</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>465</ID>
+		<Nome>Computer Training</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>446</ID>
+		<Nome>Colleges &amp; Universities</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>447</ID>
+		<Nome>Art Instruction &amp; Schools</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>651</ID>
+		<Nome>Adult Education</Nome>
+		<SubCategoria>Education</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>731</ID>
+		<Nome>Youth Organizations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>780</ID>
+		<Nome>Senior Citizen Centers &amp; Services</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>787</ID>
+		<Nome>Retirement &amp; Assisted Living Facilities</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>589</ID>
+		<Nome>Rescue Services</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>494</ID>
+		<Nome>Synagogues</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>586</ID>
+		<Nome>Mosques</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>354</ID>
+		<Nome>Churches</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>829</ID>
+		<Nome>Buddhist Temples</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>371</ID>
+		<Nome>Religious</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>685</ID>
+		<Nome>Public &amp; Social Services</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>409</ID>
+		<Nome>Post Offices</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>860</ID>
+		<Nome>Government Lobbyists</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>781</ID>
+		<Nome>Organizations &amp; Associations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>845</ID>
+		<Nome>Newspapers, Radio &amp; TV Stations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>745</ID>
+		<Nome>Military</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>387</ID>
+		<Nome>Libraries</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>778</ID>
+		<Nome>Police Stations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>850</ID>
+		<Nome>Fire Stations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>842</ID>
+		<Nome>Law Enforcement &amp; Public Safety</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>865</ID>
+		<Nome>Housing Assistance &amp; Shelters</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>827</ID>
+		<Nome>Environmental Conservation &amp; Ecological Organizations</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>779</ID>
+		<Nome>Dry Cleaning, Ironing &amp; Laundry</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>372</ID>
+		<Nome>Drug &amp; Alcohol Resources</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>516</ID>
+		<Nome>Disabled Persons Services</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>615</ID>
+		<Nome>Day Care Centers</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>402</ID>
+		<Nome>Day Care &amp; Preschools</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>841</ID>
+		<Nome>Cemeteries and Funeral Services</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>438</ID>
+		<Nome>Cemeteries</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>557</ID>
+		<Nome>Caretakers</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>857</ID>
+		<Nome>Animal Shelters &amp; Humane Societies</Nome>
+		<SubCategoria>Community &amp; Government</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>885</ID>
+		<Nome>Advertising &amp; Marketing</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>382</ID>
+		<Nome>Wholesale</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>625</ID>
+		<Nome>Plastics</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>638</ID>
+		<Nome>Metals</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>726</ID>
+		<Nome>Management</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>804</ID>
+		<Nome>Welding</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>833</ID>
+		<Nome>Water &amp; Waste Management</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>785</ID>
+		<Nome>Textiles</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>759</ID>
+		<Nome>Telecommunication Services</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>761</ID>
+		<Nome>Shipping &amp; Freight</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>840</ID>
+		<Nome>Security and Safety</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>823</ID>
+		<Nome>Scientific</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>818</ID>
+		<Nome>Rubber</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>814</ID>
+		<Nome>Refrigeration &amp; Ice</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>792</ID>
+		<Nome>Petroleum</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>788</ID>
+		<Nome>Packaging</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>776</ID>
+		<Nome>Machine Shops</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>832</ID>
+		<Nome>Logging &amp; Sawmills</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>763</ID>
+		<Nome>Industrial Machinery &amp; Vehicles</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>853</ID>
+		<Nome>Hair &amp; Beauty</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>834</ID>
+		<Nome>Geological</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>837</ID>
+		<Nome>Beverage &amp; Food</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>789</ID>
+		<Nome>Computers</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>825</ID>
+		<Nome>Chemicals &amp; Gasses</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>816</ID>
+		<Nome>Automation &amp; Control Systems</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>838</ID>
+		<Nome>Audiovisual</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>784</ID>
+		<Nome>Agriculture and Forestry</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>773</ID>
+		<Nome>Equipment, Supplies &amp; Services</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>368</ID>
+		<Nome>Entertainment</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>767</ID>
+		<Nome>Employment Agencies</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>874</ID>
+		<Nome>Electronic Equipment</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>872</ID>
+		<Nome>Business Centers</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>875</ID>
+		<Nome>Audiovisual Equipment</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>862</ID>
+		<Nome>Writing, Copywriting &amp; Technical Writing</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>856</ID>
+		<Nome>Web Design &amp; Development</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>868</ID>
+		<Nome>Search Engine Marketing &amp; Optimization</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>799</ID>
+		<Nome>Public Relations</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>790</ID>
+		<Nome>Promotional Items</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>783</ID>
+		<Nome>Printing, Copying Printing Signage</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>805</ID>
+		<Nome>Printing, Copying &amp; Signage</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>852</ID>
+		<Nome>Print, TV, Radio &amp; Outdoor Advertising</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>858</ID>
+		<Nome>Online Advertising</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>802</ID>
+		<Nome>Market Research &amp; Marketing Consultants</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>847</ID>
+		<Nome>Direct Mail &amp; Email Marketing Services</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>775</ID>
+		<Nome>Creative Services</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>839</ID>
+		<Nome>Advertising Agencies &amp; Media Buyers</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>766</ID>
+		<Nome>Advertising &amp; Marketing</Nome>
+		<SubCategoria>Business &amp; Professional Services</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>434</ID>
+		<Nome>Used Cars</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>439</ID>
+		<Nome>Used Auto Parts &amp; Salvage Yards</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>554</ID>
+		<Nome>Transmissions</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>518</ID>
+		<Nome>Towing</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>385</ID>
+		<Nome>Tires</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>590</ID>
+		<Nome>Snowmobiles</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>556</ID>
+		<Nome>RVs &amp; Motor Homes</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>553</ID>
+		<Nome>Oil &amp; Lube</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>469</ID>
+		<Nome>New Cars</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>481</ID>
+		<Nome>Motorcycles, Mopeds &amp; Scooters</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>722</ID>
+		<Nome>Motorcycles Repair</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>679</ID>
+		<Nome>Classic &amp; Antique Car Parts</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>754</ID>
+		<Nome>Classic &amp; Antique Car</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>550</ID>
+		<Nome>Car Wash &amp; Detail</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>552</ID>
+		<Nome>Car Rentals</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>558</ID>
+		<Nome>Car Parts &amp; Accessories</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>730</ID>
+		<Nome>Car Leasing</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>350</ID>
+		<Nome>Car Dealers</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>752</ID>
+		<Nome>Car Appraisers</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>738</ID>
+		<Nome>Car &amp; Truck Rentals</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>514</ID>
+		<Nome>Auto Repair</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>635</ID>
+		<Nome>Auto Body Shop</Nome>
+		<SubCategoria>Service automotive</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>578</ID>
+		<Nome>Ticket Sales</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>687</ID>
+		<Nome>Social Clubs</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>815</ID>
+		<Nome>Psychics &amp; Astrologers</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>871</ID>
+		<Nome>Orchestras, Symphonies &amp; Bands</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>477</ID>
+		<Nome>Night Clubs</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>502</ID>
+		<Nome>Museums</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>495</ID>
+		<Nome>Movie Theatres</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>593</ID>
+		<Nome>Karaoke</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>822</ID>
+		<Nome>Jazz &amp; Blues Cafes</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>690</ID>
+		<Nome>Internet Cafes</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>796</ID>
+		<Nome>Concert Halls &amp; Theaters</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>540</ID>
+		<Nome>Casinos &amp; Gaming</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>455</ID>
+		<Nome>Bowling Alleys</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>538</ID>
+		<Nome>Bingo Halls</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>806</ID>
+		<Nome>Billiard Parlors &amp; Pool Halls</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>618</ID>
+		<Nome>Wine Bars</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>851</ID>
+		<Nome>Sports Bars</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>830</ID>
+		<Nome>Pubs and Taverns</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>887</ID>
+		<Nome>Dance Halls &amp; Saloons</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>450</ID>
+		<Nome>Bars</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>777</ID>
+		<Nome>Art Dealers &amp; Galleries</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>835</ID>
+		<Nome>Arcades &amp; Amusement Parks</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+	<CategoriasViewModel>
+		<ID>824</ID>
+		<Nome>Adult Entertainment</Nome>
+		<SubCategoria>Entertainment &amp; Nightlife</SubCategoria>
+	</CategoriasViewModel>
+</ArrayOfCategoriasViewModel>

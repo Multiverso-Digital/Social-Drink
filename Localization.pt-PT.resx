@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitleAddLocal" xml:space="preserve">
+    <value>Adicionar  local</value>
+  </data>
+  <data name="novloc_categoria" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="novloc_nomelocal" xml:space="preserve">
+    <value>Nome do local</value>
+  </data>
+  <data name="PTitleAddLocal" xml:space="preserve">
+    <value>Novo local</value>
+  </data>
+  <data name="AppTitleCategoria" xml:space="preserve">
+    <value>Lista das categorias</value>
+  </data>
+  <data name="b01AddPlace" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="nov_loc_drink" xml:space="preserve">
+    <value>Nome da bebida</value>
+  </data>
+  <data name="nov_loc_sel" xml:space="preserve">
+    <value>Selecione uma categoria</value>
+  </data>
+  <data name="PTitleCategoria" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="nov_loc_address" xml:space="preserve">
+    <value>Selecione um endereço</value>
+  </data>
+  <data name="button_nov_loc_address" xml:space="preserve">
+    <value>Tente encontrá-lo no Google</value>
+  </data>
+  <data name="nov_loc_ende" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="nov_loc_fone" xml:space="preserve">
+    <value>Telefone(opcional)</value>
+  </data>
+  <data name="PTitleAddLocalGoogle" xml:space="preserve">
+    <value>Google 500m</value>
+  </data>
+  <data name="button_nov_loc_google" xml:space="preserve">
+    <value>Tente achar no </value>
+  </data>
+  <data name="nov_loc_g_tap" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="nov_use_add" xml:space="preserve">
+    <value>Nova conta</value>
+  </data>
+  <data name="nov_use_female" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="nov_use_male" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="nov_use_nome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="nov_use_pass" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="nov_use_passconf" xml:space="preserve">
+    <value>Confirmar senha</value>
+  </data>
+  <data name="nov_use_profile" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="login_t_forgot" xml:space="preserve">
+    <value>esqueci a senha</value>
+  </data>
+  <data name="login_t_newaccount" xml:space="preserve">
+    <value>nova conta</value>
+  </data>
+  <data name="login_t_password" xml:space="preserve">
+    <value>senha</value>
+  </data>
+  <data name="button_use_gravar" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="b_newplace" xml:space="preserve">
+    <value>novo local</value>
+  </data>
+  <data name="b_refresh" xml:space="preserve">
+    <value>atualizar</value>
+  </data>
+  <data name="check_brand" xml:space="preserve">
+    <value>marca ou nome do drink</value>
+  </data>
+  <data name="check_drink" xml:space="preserve">
+    <value>tipo de bebida</value>
+  </data>
+  <data name="m01" xml:space="preserve">
+    <value>Sem conexão com a Internet. Tente mais tarde.</value>
+    <comment>login</comment>
+  </data>
+  <data name="m02" xml:space="preserve">
+    <value>Erro - Sem conexão. Tente mais tarde.</value>
+    <comment>login</comment>
+  </data>
+  <data name="m03" xml:space="preserve">
+    <value>Esta aplicação precisa acessar a sua localização. Você autoriza?</value>
+    <comment>login</comment>
+  </data>
+  <data name="m04" xml:space="preserve">
+    <value>AVISO</value>
+    <comment>login</comment>
+  </data>
+  <data name="m05" xml:space="preserve">
+    <value>acessando o servidor </value>
+    <comment>login</comment>
+  </data>
+  <data name="m06" xml:space="preserve">
+    <value>Email precisa ser válido!</value>
+    <comment>login</comment>
+  </data>
+  <data name="m07" xml:space="preserve">
+    <value>Senha precisa ser válida</value>
+  </data>
+  <data name="m08" xml:space="preserve">
+    <value>Login inválido. Tente novamente!</value>
+  </data>
+  <data name="m09" xml:space="preserve">
+    <value>Desculpe. Você precisa criar uma nova conta.</value>
+  </data>
+  <data name="m10" xml:space="preserve">
+    <value>Esta aplicação precisa acessar a sua localização. Por favor altere a configuração deste aparelho para aceitar esta função.</value>
+  </data>
+  <data name="m11" xml:space="preserve">
+    <value>a função de localização não está funcionando neste aparelho.</value>
+  </data>
+  <data name="m12" xml:space="preserve">
+    <value>O sinal do satélite está fraco. Tente mudar de posição.</value>
+  </data>
+  <data name="m13" xml:space="preserve">
+    <value>O sinal do satélite está fraco. Tente mudar de posição. A aplicação será encerrada. </value>
+  </data>
+  <data name="m14" xml:space="preserve">
+    <value>Por favor aguarde até que sua posição seja determinada pelo satélite...</value>
+  </data>
+  <data name="m15" xml:space="preserve">
+    <value>Procurando sinal do satélite.</value>
+  </data>
+  <data name="m16" xml:space="preserve">
+    <value>Procurando sinal do satélite..</value>
+  </data>
+  <data name="m17" xml:space="preserve">
+    <value>Procurando sinal do satélite...</value>
+  </data>
+  <data name="m18" xml:space="preserve">
+    <value>Nenhum local próximo encontrado segundo as coordenadas apuradas. Adicione novos locais clicando no botão + abaixo.</value>
+  </data>
+  <data name="m19" xml:space="preserve">
+    <value>até:  </value>
+  </data>
+  <data name="m20" xml:space="preserve">
+    <value>consumo aqui:  </value>
+  </data>
+  <data name="m21" xml:space="preserve">
+    <value>seu consumo aqui: </value>
+  </data>
+  <data name="m22" xml:space="preserve">
+    <value>Você precisa selecionar o tipo de bebida.</value>
+  </data>
+  <data name="m23" xml:space="preserve">
+    <value>Você precisa indicar a marca ou o nome do drink.</value>
+  </data>
+  <data name="m24" xml:space="preserve">
+    <value>Você precisa indicar a quantidade de doses.</value>
+  </data>
+  <data name="m25" xml:space="preserve">
+    <value>Nome precisa ser válido.</value>
+  </data>
+  <data name="m26" xml:space="preserve">
+    <value>Confirmação da senha precisa ser válida.</value>
+  </data>
+  <data name="m27" xml:space="preserve">
+    <value>As senhas informadas devem ser iguais.</value>
+  </data>
+  <data name="m28" xml:space="preserve">
+    <value>Masculino/Feminino não selecionado</value>
+  </data>
+  <data name="p1header" xml:space="preserve">
+    <value>locais</value>
+  </data>
+  <data name="p2header" xml:space="preserve">
+    <value>meus favoritos</value>
+  </data>
+  <data name="p3header" xml:space="preserve">
+    <value>50 locais++</value>
+  </data>
+  <data name="p4header" xml:space="preserve">
+    <value>configuração</value>
+  </data>
+  <data name="radHubTile3" xml:space="preserve">
+    <value>toque me</value>
+  </data>
+  <data name="tDose" xml:space="preserve">
+    <value>ml</value>
+  </data>
+  <data name="tDoses" xml:space="preserve">
+    <value>ml</value>
+  </data>
+  <data name="am_fb" xml:space="preserve">
+    <value>mensagem adicional e imagens para compartilhar</value>
+  </data>
+  <data name="AppTitleBrand" xml:space="preserve">
+    <value>Lista das marcas</value>
+  </data>
+  <data name="AppTitleDrink" xml:space="preserve">
+    <value>Lista de bebidas</value>
+  </data>
+  <data name="app_title_DF" xml:space="preserve">
+    <value>meu rank em:</value>
+  </data>
+  <data name="busyIndicator" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="button1" xml:space="preserve">
+    <value>Lista Tel #</value>
+  </data>
+  <data name="b_novo" xml:space="preserve">
+    <value>novo</value>
+  </data>
+  <data name="b_share" xml:space="preserve">
+    <value>socialize</value>
+  </data>
+  <data name="cbSend" xml:space="preserve">
+    <value>enviar com dados dos drinks</value>
+  </data>
+  <data name="m30" xml:space="preserve">
+    <value>Coordenadas enviadas pelo satelite. Aguarde! </value>
+  </data>
+  <data name="m31" xml:space="preserve">
+    <value>seus drinks: </value>
+  </data>
+  <data name="m32" xml:space="preserve">
+    <value>total drinks: </value>
+  </data>
+  <data name="m33" xml:space="preserve">
+    <value>enviando dados para o servidor...</value>
+  </data>
+  <data name="m34" xml:space="preserve">
+    <value>gravando dados no servidor...</value>
+  </data>
+  <data name="m35" xml:space="preserve">
+    <value>gravando dados finais...</value>
+  </data>
+  <data name="m36" xml:space="preserve">
+    <value>Selecione uma marca</value>
+  </data>
+  <data name="m37" xml:space="preserve">
+    <value>Selecione um drink</value>
+  </data>
+  <data name="m38" xml:space="preserve">
+    <value>Marca não pode ser nula!</value>
+  </data>
+  <data name="m39" xml:space="preserve">
+    <value>Esta marca já existe</value>
+  </data>
+  <data name="ms40" xml:space="preserve">
+    <value>Seus drinks aqui: </value>
+  </data>
+  <data name="ms41" xml:space="preserve">
+    <value>Total drinks aqui: </value>
+  </data>
+  <data name="ms42" xml:space="preserve">
+    <value>Social Drink em:  </value>
+  </data>
+  <data name="ms43" xml:space="preserve">
+    <value>Social Drink em:</value>
+  </data>
+  <data name="ms44" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ms45" xml:space="preserve">
+    <value>Eu recomendo: </value>
+  </data>
+  <data name="ms46" xml:space="preserve">
+    <value>Marca ou nome do drink: </value>
+  </data>
+  <data name="ms47" xml:space="preserve">
+    <value>Falta informar o número de Tel para o SMS.</value>
+  </data>
+  <data name="ms48" xml:space="preserve">
+    <value>SMS para: </value>
+  </data>
+  <data name="p11header" xml:space="preserve">
+    <value>meus drinks aqui</value>
+  </data>
+  <data name="p12header" xml:space="preserve">
+    <value>os 10+ locais</value>
+  </data>
+  <data name="PTitleBrand" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="PTitleDrink" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="sm_fb" xml:space="preserve">
+    <value>mensagem principal</value>
+  </data>
+  <data name="tBefore" xml:space="preserve">
+    <value>antes</value>
+  </data>
+  <data name="title_fb" xml:space="preserve">
+    <value>Socializando</value>
+  </data>
+  <data name="title_new_brand" xml:space="preserve">
+    <value>Nova Marca</value>
+  </data>
+  <data name="tNow" xml:space="preserve">
+    <value>agora</value>
+  </data>
+  <data name="tSMS" xml:space="preserve">
+    <value>Número para o envio SMS</value>
+  </data>
+  <data name="tTotal" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="t_new_brand" xml:space="preserve">
+    <value>nova marca</value>
+  </data>
+  <data name="b_camera" xml:space="preserve">
+    <value>foto</value>
+  </data>
+  <data name="b_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="b_save" xml:space="preserve">
+    <value>gravar</value>
+  </data>
+  <data name="ms49" xml:space="preserve">
+    <value>download da lista de locais próximos...</value>
+  </data>
+  <data name="ms50" xml:space="preserve">
+    <value>Nome do local é obrigatório!</value>
+  </data>
+  <data name="ms51" xml:space="preserve">
+    <value>Categoria é obrigatório!</value>
+  </data>
+  <data name="ms52" xml:space="preserve">
+    <value>Endereço é obrigatório!</value>
+  </data>
+  <data name="ms53" xml:space="preserve">
+    <value>Gravando novo local. Aguarde...</value>
+  </data>
+  <data name="ms54" xml:space="preserve">
+    <value>Erro durante a gravação do novo local. Tente mais tarde!</value>
+  </data>
+  <data name="ms55" xml:space="preserve">
+    <value>Local gravado com sucesso!</value>
+  </data>
+  <data name="ms56" xml:space="preserve">
+    <value>Excluir imagem</value>
+  </data>
+  <data name="ms57" xml:space="preserve">
+    <value>Confirma a exclusão da imagem?</value>
+  </data>
+  <data name="ms58" xml:space="preserve">
+    <value>Por favor selecione um local.</value>
+  </data>
+  <data name="ms59" xml:space="preserve">
+    <value>Este local já existe no cadastro.</value>
+  </data>
+  <data name="sel_dose" xml:space="preserve">
+    <value>selecione sua dose</value>
+  </data>
+  <data name="m_duplicado" xml:space="preserve">
+    <value>local duplicado</value>
+  </data>
+  <data name="m_endereco" xml:space="preserve">
+    <value>endereço errado</value>
+  </data>
+  <data name="m_fechado" xml:space="preserve">
+    <value>local fechado/inexistente</value>
+  </data>
+  <data name="ms60" xml:space="preserve">
+    <value>mensagem enviada com sucesso.</value>
+  </data>
+  <data name="b_edit_user" xml:space="preserve">
+    <value>editar conta</value>
+  </data>
+  <data name="b_linkmap" xml:space="preserve">
+    <value>envia mapa</value>
+  </data>
+  <data name="b_linkphoto" xml:space="preserve">
+    <value>envia foto</value>
+  </data>
+  <data name="b_sendimage" xml:space="preserve">
+    <value>enviar foto</value>
+  </data>
+  <data name="b_sendmessage" xml:space="preserve">
+    <value>envia msg</value>
+  </data>
+  <data name="b_sobre" xml:space="preserve">
+    <value>sobre</value>
+  </data>
+  <data name="ms61" xml:space="preserve">
+    <value>sem imagem para enviar</value>
+  </data>
+  <data name="ms62" xml:space="preserve">
+    <value>enviando foto ...</value>
+  </data>
+  <data name="ms63" xml:space="preserve">
+    <value>criando novo álbum ...</value>
+  </data>
+  <data name="ms64" xml:space="preserve">
+    <value>adicionando foto no álbum ...</value>
+  </data>
+  <data name="ms65" xml:space="preserve">
+    <value>foto enviada com sucesso!</value>
+  </data>
+  <data name="ms66" xml:space="preserve">
+    <value>reduza o número de caracteres da mensagem!</value>
+  </data>
+  <data name="ms67" xml:space="preserve">
+    <value>conta atualizada</value>
+  </data>
+  <data name="ms68" xml:space="preserve">
+    <value>nova conta gravada com sucesso!</value>
+  </data>
+  <data name="ms69" xml:space="preserve">
+    <value>Este email já existe em nossa base de dados. Tente outro.</value>
+  </data>
+  <data name="ms70" xml:space="preserve">
+    <value>Erro: Problema na gravação dos dados. Tente mais tarde!</value>
+  </data>
+  <data name="ms71" xml:space="preserve">
+    <value>por favor seja paciente...</value>
+  </data>
+  <data name="t_brand_name" xml:space="preserve">
+    <value>selecione a marca</value>
+  </data>
+  <data name="t_drink_type" xml:space="preserve">
+    <value>selecione tipo drink</value>
+  </data>
+  <data name="t_envia_foto" xml:space="preserve">
+    <value>foto para enviar</value>
+  </data>
+  <data name="t_photo" xml:space="preserve">
+    <value>compartilhar foto</value>
+  </data>
+  <data name="b_graph" xml:space="preserve">
+    <value>gráfico</value>
+  </data>
+  <data name="ms72" xml:space="preserve">
+    <value>total drinks: </value>
+  </data>
+  <data name="p22header" xml:space="preserve">
+    <value>os 10+ locais</value>
+  </data>
+  <data name="p32header" xml:space="preserve">
+    <value>top 50 drinks</value>
+  </data>
+  <data name="AppTitleTaxi" xml:space="preserve">
+    <value>Lista de taxi</value>
+  </data>
+  <data name="PTitleTaxi" xml:space="preserve">
+    <value>Taxi</value>
+  </data>
+  <data name="PTitleBrandDel" xml:space="preserve">
+    <value>Excluir marcas</value>
+  </data>
+  <data name="b_delete" xml:space="preserve">
+    <value>excluir</value>
+  </data>
+  <data name="b_edit" xml:space="preserve">
+    <value>editar</value>
+  </data>
+  <data name="p91header" xml:space="preserve">
+    <value>locais</value>
+  </data>
+  <data name="dash_mytrack" xml:space="preserve">
+    <value>mostra os lugares que você esteve e os drinks que tomou.</value>
+  </data>
+  <data name="m73" xml:space="preserve">
+    <value>Sim, eu autorizo.</value>
+  </data>
+  <data name="m74" xml:space="preserve">
+    <value>Eu autorizo que esta aplicação acesse minha localização.</value>
+  </data>
+  <data name="m75" xml:space="preserve">
+    <value>Não.</value>
+  </data>
+  <data name="m76" xml:space="preserve">
+    <value>Eu não autorizo. Por favor, encerre a aplicação.</value>
+  </data>
+  <data name="m77" xml:space="preserve">
+    <value>Permissão de acesso</value>
+  </data>
+  <data name="m78" xml:space="preserve">
+    <value>Você autoriza esta aplicação a ter acesso a sua localização?</value>
+  </data>
+  <data name="m79" xml:space="preserve">
+    <value>locais offline</value>
+  </data>
+  <data name="m80" xml:space="preserve">
+    <value>locais</value>
+  </data>
+  <data name="m81" xml:space="preserve">
+    <value>Esta aplicação não funciona sem esta função. A aplicação será encerrada.</value>
+  </data>
+  <data name="P2Main" xml:space="preserve">
+    <value>relatórios</value>
+  </data>
+  <data name="AVISO_Header" xml:space="preserve">
+    <value>mostrar teor alcóolico no sangue</value>
+  </data>
+  <data name="b_hyper" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="b_map" xml:space="preserve">
+    <value>mostra mapa</value>
+  </data>
+  <data name="b_placenew" xml:space="preserve">
+    <value>novo local</value>
+  </data>
+  <data name="b_update" xml:space="preserve">
+    <value>atualize agora!</value>
+  </data>
+  <data name="dash_medals" xml:space="preserve">
+    <value>mostra medalhas e promoções que ganhou</value>
+  </data>
+  <data name="dash_top10" xml:space="preserve">
+    <value>mostra os 10 locais, perto de você, mais visitados segundo nossa base de dados e  as 50+ marcas.</value>
+  </data>
+  <data name="Desligado" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="Ligado" xml:space="preserve">
+    <value>Ligado</value>
+  </data>
+  <data name="LOCALItxt" xml:space="preserve">
+    <value>Esta aplicação utiliza a sua localização para encontrar lugares próximos da posição do aparelho. Sem essa função a aplicação não funciona. Veja a Política de Privacidade clicando no botão "Sobre". </value>
+  </data>
+  <data name="LOCALI_Header" xml:space="preserve">
+    <value>acesso a localização</value>
+  </data>
+  <data name="m85" xml:space="preserve">
+    <value>A conexão com a internet não está ativa ou a permissão de localização está desabilitada. Você pode trabalhar offline.</value>
+  </data>
+  <data name="m86" xml:space="preserve">
+    <value>Para trabalhar offline cadastre um local fictício e depois faça o acerto.</value>
+  </data>
+  <data name="NET_Header" xml:space="preserve">
+    <value>Acesso a rede</value>
+  </data>
+  <data name="nov_loc_aviso" xml:space="preserve">
+    <value>Aviso: Você precisa estar no local que vai cadastrar. As coordenadas são obtidas via satélite. Veja abaixo.</value>
+  </data>
+  <data name="P3Main" xml:space="preserve">
+    <value>atualizar</value>
+  </data>
+  <data name="P4Main" xml:space="preserve">
+    <value>configuração</value>
+  </data>
+  <data name="set_email" xml:space="preserve">
+    <value>Seu e-mail</value>
+  </data>
+  <data name="txt_update" xml:space="preserve">
+    <value>atualize sua base de dados de drinks</value>
+  </data>
+  <data name="eSangue" xml:space="preserve">
+    <value>álcool no sangue:  </value>
+  </data>
+  <data name="m87" xml:space="preserve">
+    <value>se precisa de táxi clique no ícone Táxi</value>
+  </data>
+  <data name="m88" xml:space="preserve">
+    <value>clique no copo para beber</value>
+  </data>
+  <data name="app_capture" xml:space="preserve">
+    <value>Tela capturada</value>
+  </data>
+  <data name="b_capture" xml:space="preserve">
+    <value>capture</value>
+  </data>
+  <data name="b_checkin" xml:space="preserve">
+    <value>checkin</value>
+  </data>
+  <data name="b_clear" xml:space="preserve">
+    <value>limpar a mesa</value>
+  </data>
+  <data name="b_info" xml:space="preserve">
+    <value>local</value>
+  </data>
+  <data name="b_promotion" xml:space="preserve">
+    <value>promoção</value>
+  </data>
+  <data name="eDrop" xml:space="preserve">
+    <value>arraste e solte  a garrafa aqui</value>
+  </data>
+  <data name="m100" xml:space="preserve">
+    <value>Gravado com sucesso.</value>
+  </data>
+  <data name="m101" xml:space="preserve">
+    <value>drinks</value>
+  </data>
+  <data name="m102" xml:space="preserve">
+    <value>drinks</value>
+  </data>
+  <data name="m103" xml:space="preserve">
+    <value>locais</value>
+  </data>
+  <data name="m104" xml:space="preserve">
+    <value>A rede HiFi não está conectada</value>
+  </data>
+  <data name="m105" xml:space="preserve">
+    <value>Por favor informe o seu e-mail na tela de configuração</value>
+  </data>
+  <data name="m106" xml:space="preserve">
+    <value>Enviando para o servidor...</value>
+  </data>
+  <data name="m89" xml:space="preserve">
+    <value>Você possue mais de um telefone de Taxi. Por favor deixe apenas um.</value>
+  </data>
+  <data name="m90" xml:space="preserve">
+    <value>Selecione o telefone para enviar o SMS.</value>
+  </data>
+  <data name="m91" xml:space="preserve">
+    <value>Sobrenome não pode ser nulo</value>
+  </data>
+  <data name="m92" xml:space="preserve">
+    <value>Número do seu celular não pode ser nulo.</value>
+  </data>
+  <data name="m93" xml:space="preserve">
+    <value>Endereço de destino não pode ser nulo.</value>
+  </data>
+  <data name="m94" xml:space="preserve">
+    <value>.Local: </value>
+  </data>
+  <data name="m95" xml:space="preserve">
+    <value>.Endereço: </value>
+  </data>
+  <data name="m96" xml:space="preserve">
+    <value>. Nome: </value>
+  </data>
+  <data name="m97" xml:space="preserve">
+    <value>.Celular: </value>
+  </data>
+  <data name="m98" xml:space="preserve">
+    <value>.Onde estou: </value>
+  </data>
+  <data name="m99" xml:space="preserve">
+    <value>.Destino: </value>
+  </data>
+  <data name="p111header" xml:space="preserve">
+    <value>minha trilha</value>
+  </data>
+  <data name="p121header" xml:space="preserve">
+    <value>meus drinks</value>
+  </data>
+  <data name="place_map" xml:space="preserve">
+    <value>mapa do local</value>
+  </data>
+  <data name="sendinfo" xml:space="preserve">
+    <value>atualiza servidor</value>
+  </data>
+  <data name="taxi_b_call" xml:space="preserve">
+    <value>Ligar para o Taxi</value>
+  </data>
+  <data name="taxi_b_novofone" xml:space="preserve">
+    <value>Novo telefone para Taxi</value>
+  </data>
+  <data name="taxi_b_sms" xml:space="preserve">
+    <value>Enviar SMS para o Taxi com mapa</value>
+  </data>
+  <data name="taxi_cel_num" xml:space="preserve">
+    <value>núm. do seu celular</value>
+  </data>
+  <data name="taxi_destino" xml:space="preserve">
+    <value>endereço de destino</value>
+  </data>
+  <data name="taxi_last_name" xml:space="preserve">
+    <value>seu sobrenome</value>
+  </data>
+  <data name="trofeu" xml:space="preserve">
+    <value>minha coleção</value>
+  </data>
+  <data name="txt_board" xml:space="preserve">
+    <value>Crie e envie mensagens para a lousa do bar de seus amigos </value>
+  </data>
+  <data name="AppTitleFri" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PTitleFriends" xml:space="preserve">
+    <value>selecione amigos</value>
+  </data>
+  <data name="cap_save" xml:space="preserve">
+    <value>Grave esta tela e mande para o Facebook ou Twitter</value>
+  </data>
+  <data name="ms107" xml:space="preserve">
+    <value>Clique no copo</value>
+  </data>
+  <data name="bcomprar" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="PageTitleTrial" xml:space="preserve">
+    <value>prazo encerrado</value>
+  </data>
+  <data name="ttrial" xml:space="preserve">
+    <value>Desculpe mas o prazo de experiência está encerrado. Se você quiser adquirir este aplicativo clique no botão comprar.</value>
+  </data>
+  <data name="dash_top11" xml:space="preserve">
+    <value>Mostra os campeões no Social Drink-Slot Machine</value>
+  </data>
+  <data name="ms110" xml:space="preserve">
+    <value>Ok, o código foi lido.</value>
+  </data>
+  <data name="ms111" xml:space="preserve">
+    <value>Este código não é um código válido do Social Drink.</value>
+  </data>
+  <data name="p12slotheader" xml:space="preserve">
+    <value>50 campeões</value>
+  </data>
+  <data name="PageQR" xml:space="preserve">
+    <value>promoção</value>
+  </data>
+  <data name="QRSample" xml:space="preserve">
+    <value>exemplo</value>
+  </data>
+  <data name="QRT1" xml:space="preserve">
+    <value>Produz o cartão com o código QR e envia aos bares que estão participando da promoção.</value>
+  </data>
+  <data name="QRT2" xml:space="preserve">
+    <value>Cada cartão representa a promoção de uma marca</value>
+  </data>
+  <data name="QRT3" xml:space="preserve">
+    <value>Se a sua bebida estiver na nossa promoção solicite seu cartão.</value>
+  </data>
+  <data name="QRTexto" xml:space="preserve">
+    <value>Se neste local tiver promoção aponte a camera para o código QR que o gerente te deu.</value>
+  </data>
+  <data name="TitleQR" xml:space="preserve">
+    <value>QR CODE Promoção</value>
+  </data>
+  <data name="m107" xml:space="preserve">
+    <value>Terminou!</value>
+  </data>
+  <data name="m108" xml:space="preserve">
+    <value>Atualizando dados...</value>
+  </data>
+  <data name="m109" xml:space="preserve">
+    <value>Preparando dados para o envio...</value>
+  </data>
+  <data name="m110" xml:space="preserve">
+    <value>Acessando o servidor...</value>
+  </data>
+  <data name="p311header" xml:space="preserve">
+    <value>Drinks aqui</value>
+  </data>
+  <data name="p321header" xml:space="preserve">
+    <value>mapa</value>
+  </data>
+  <data name="cbAll" xml:space="preserve">
+    <value>Selecionar todos</value>
+  </data>
+  <data name="m128" xml:space="preserve">
+    <value>Envio de dados</value>
+  </data>
+  <data name="m129" xml:space="preserve">
+    <value>A quantidade de registros gerada pelo Social Drink no seu aparelho vai exceder o tamanho permitido. Podemos enviar os dados para o servidor ? </value>
+  </data>
+  <data name="ms121" xml:space="preserve">
+    <value>login no servidor...</value>
+  </data>
+  <data name="ms122" xml:space="preserve">
+    <value>procurando satélite...</value>
+  </data>
+  <data name="ms123" xml:space="preserve">
+    <value>lendo banco de dados NOKIA...</value>
+  </data>
+  <data name="ms124" xml:space="preserve">
+    <value>lendo banco de dados GOOGLE...</value>
+  </data>
+  <data name="ms125" xml:space="preserve">
+    <value>lendo banco de dados FOURSQUARE ...</value>
+  </data>
+  <data name="ms126" xml:space="preserve">
+    <value>Eu recomendo esta aplicação: Social Drink.</value>
+  </data>
+  <data name="ms127" xml:space="preserve">
+    <value>locais</value>
+  </data>
+  <data name="p122header" xml:space="preserve">
+    <value>as 50+ marcas</value>
+  </data>
+  <data name="ms128" xml:space="preserve">
+    <value>Você está a  </value>
+  </data>
+  <data name="ms129" xml:space="preserve">
+    <value>deste local.</value>
+  </data>
+  <data name="AppTitleChange" xml:space="preserve">
+    <value>Trocar local</value>
+  </data>
+  <data name="m130" xml:space="preserve">
+    <value>Troca de lugar</value>
+  </data>
+  <data name="m131" xml:space="preserve">
+    <value>Você confirma a troca de lugar?</value>
+  </data>
+  <data name="PageTitleEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="textBlock1" xml:space="preserve">
+    <value>mudar de: </value>
+  </data>
+  <data name="textBlock3" xml:space="preserve">
+    <value>para: (selecionar da lista abaixo)</value>
+  </data>
+  <data name="fsserver" xml:space="preserve">
+    <value>Servidor Foursquare não disponível no momento.</value>
+  </data>
+  <data name="googleserver" xml:space="preserve">
+    <value>Servidor Google não disponível no momento.</value>
+  </data>
+  <data name="nokiaserver" xml:space="preserve">
+    <value>Servidor Nokia não disponível no momento.</value>
+  </data>
+  <data name="ms130" xml:space="preserve">
+    <value>Duplo toque seleciona um local da lista!</value>
+  </data>
+  <data name="ms131" xml:space="preserve">
+    <value>Arraste e solte a garrafa dentro do retângulo vermelho.</value>
+  </data>
+  <data name="ms132" xml:space="preserve">
+    <value>Toque no copo várias vezes até formar uma pirâmide!</value>
+  </data>
+  <data name="m870" xml:space="preserve">
+    <value>toque no mapa para obter a rota</value>
+  </data>
+  <data name="m890" xml:space="preserve">
+    <value>dados obtidos via Foursquare</value>
+  </data>
+  <data name="m900" xml:space="preserve">
+    <value>toque no icon para obter maiores detalhes</value>
+  </data>
+  <data name="m950" xml:space="preserve">
+    <value>dados obtidos via Google</value>
+  </data>
+  <data name="m960" xml:space="preserve">
+    <value>dados obtidos via Nokia</value>
+  </data>
+  <data name="m499" xml:space="preserve">
+    <value>locais sugeridos agora</value>
+  </data>
+  <data name="m500" xml:space="preserve">
+    <value>ordenar por nome</value>
+  </data>
+  <data name="m501" xml:space="preserve">
+    <value>ordenar por distância</value>
+  </data>
+  <data name="m502" xml:space="preserve">
+    <value>ordenar por rating/checkin</value>
+  </data>
+  <data name="m503" xml:space="preserve">
+    <value>ordenar por categoria</value>
+  </data>
+  <data name="m504" xml:space="preserve">
+    <value>eventos nas proximidades</value>
+  </data>
+  <data name="m505" xml:space="preserve">
+    <value>sem eventos programados para </value>
+  </data>
+  <data name="m506" xml:space="preserve">
+    <value>pontos de taxi próximos</value>
+  </data>
+  <data name="m600" xml:space="preserve">
+    <value>ordenar por nome</value>
+  </data>
+  <data name="m601" xml:space="preserve">
+    <value>ordenar por distância</value>
+  </data>
+  <data name="m602" xml:space="preserve">
+    <value>ordenar por classificação</value>
+  </data>
+  <data name="m603" xml:space="preserve">
+    <value>ordenar por categoria</value>
+  </data>
+  <data name="m604" xml:space="preserve">
+    <value>ordenar por checkin</value>
+  </data>
+  <data name="m700" xml:space="preserve">
+    <value>ordenar por evento</value>
+  </data>
+  <data name="m701" xml:space="preserve">
+    <value>ordenar por distância</value>
+  </data>
+  <data name="m702" xml:space="preserve">
+    <value>ordenar por data</value>
+  </data>
+  <data name="m703" xml:space="preserve">
+    <value>ordenar por local</value>
+  </data>
+</root>

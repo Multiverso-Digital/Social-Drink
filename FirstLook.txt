@@ -1,0 +1,2 @@
+﻿Based on the super-fast and extensible RadLoopingList, RadSlideView is a unique control which brings the picture-browsing like experience from the native OS to your applications.
+Any arbitrary content may be used as a slide - pictures, texts, controls or even videos. The control is fully programmable and may be easily setup either in XAML or through code behind.
